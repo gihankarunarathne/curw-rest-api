@@ -133,6 +133,42 @@
             "description": "A&T Communication Box, Texas Standard Rain Gauge",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_mutwal",
+            "name": "Mutwal",
+            "station_meta": ["curw_mutwal", "Mutwal", 6.95871 , 79.86090, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_malabe",
+            "name": "Malabe",
+            "station_meta": ["curw_malabe", "Malabe", 6.90396 , 79.95738, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_dickoya",
+            "name": "Dickoya",
+            "station_meta": ["curw_dickoya", "Dickoya", 6.8722 , 80.60312 , 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
+        }, {
             "stationId": "curw_wl_ranwala",
             "name": "Ranwala Bridge",
             "station_meta": ["curw_wl_ranwala", "Ranwala Bridge", 6.890585 , 80.802551, 0, "Campbell water level guage, A&T communication"],
