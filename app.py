@@ -301,12 +301,9 @@ def update_weather_station_single():
             if 'tempf' in data:
                 new_time_step['TemperatureC'] = (Utils.get_float(data['tempf'], 'tempf', logger_single) - 32) * 5 / 9
 
-            # -- PrecipitationMM
-            if 'rainMM' in data:
-                new_time_step['PrecipitationMM'] = Utils.get_float(data['rainMM'], 'rainMM', logger_single)
-            # -- PrecipitationIn
-            if 'rainin' in data:
-                new_time_step['PrecipitationMM'] = Utils.get_float(data['rainin'], 'rainin', logger_single) * 25.4
+            # -- daily PrecipitationIn
+            if 'dailyrainin' in data:
+                new_time_step['PrecipitationMM'] = Utils.get_float(data['dailyrainin'], 'dailyrainin', logger_single) * 25.4
 
             # -- WindSpeedKMH
             if 'windspeedkmh' in data:
