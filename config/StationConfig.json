@@ -169,6 +169,30 @@
             "description": "A&T Communication Box, Texas Standard Rain Gauge",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_urumewella",
+            "name": "Urumewella",
+            "station_meta": ["curw_urumewella", "Urumewella", 7.079348 , 80.348785 , 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_kohuwala",
+            "name": "Kohuwala",
+            "station_meta": ["curw_kohuwala", "Kohuwala", 6.860887, 79.885825, 0, "Raspberrypi Communication Box, Davis Standard Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "Raspberrypi Communication Box, Davis Standard Rain Gauge",
+            "run_name": "CUrW Station"
+        }, {
             "stationId": "curw_wl_ranwala",
             "name": "Ranwala Bridge",
             "station_meta": ["curw_wl_ranwala", "Ranwala Bridge", 6.890585 , 80.802551, 0, "Campbell water level guage, A&T communication"],
