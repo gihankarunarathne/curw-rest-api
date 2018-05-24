@@ -123,7 +123,7 @@
         }, {
             "stationId": "curw_mulleriyawa",
             "name": "Mulleriyawa",
-            "station_meta": ["curw_mulleriyawa", "Mulleriyawa", 6.890585 , 80.802551, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "station_meta": ["curw_mulleriyawa", "Mulleriyawa", 6.923571 , 79.94118, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
