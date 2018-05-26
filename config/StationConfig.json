@@ -264,6 +264,66 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_yakbedda",
+            "name": "Yakbedda",
+            "station_meta": ["curw_wl_yakbedda", "Yakbedda", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Leecom water level guage, Leecom communication box",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_wellawatta",
+            "name": "Wellawatta",
+            "station_meta": ["curw_wl_wellawatta", "Wellawatta", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Leecom water level guage, Leecom communication box",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_heenela",
+            "name": "Heen Ela",
+            "station_meta": ["curw_wl_heenela", "Heen Ela", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Leecom water level guage, Leecom communication box",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_ingurukade",
+            "name": "Ingurukade",
+            "station_meta": ["curw_wl_ingurukade", "Ingurukade", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Leecom water level guage, Leecom communication box",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_janakalakendraya",
+            "name": "Janakala Kendraya",
+            "station_meta": ["curw_wl_janakalakendraya", "Janakala Kendraya", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Leecom water level guage, Leecom communication box",
+            "run_name": "Leecom"
         }
     ]
 }
