@@ -290,7 +290,7 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_wl_wellampitiya",
-            "name": "Heen Ela",
+            "name": "Wellampitiya",
             "station_meta": ["curw_wl_wellampitiya", "Wellampitiya", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
