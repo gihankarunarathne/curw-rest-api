@@ -289,9 +289,9 @@
             "description": "Leecom water level guage, Leecom communication box",
             "run_name": "Leecom"
         }, {
-            "stationId": "curw_wl_heenela",
+            "stationId": "curw_wl_wellampitiya",
             "name": "Heen Ela",
-            "station_meta": ["curw_wl_heenela", "Heen Ela", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_wellampitiya", "Wellampitiya", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
