@@ -217,9 +217,9 @@
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
-            "stationId": "curw_wl_sllrdc",
+            "stationId": "curw_wl_nearsllrdc",
             "name": "SLLRDC",
-            "station_meta": ["curw_wl_sllrdc", "SLLRDC", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
+            "station_meta": ["curw_wl_nearsllrdc", "SLLRDC", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -241,9 +241,9 @@
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
-            "stationId": "curw_wl_kalalgoda",
+            "stationId": "curw_wl_kalalgodaroad",
             "name": "Kalalgoda",
-            "station_meta": ["curw_wl_kalalgoda", "Kalalgoda", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
+            "station_meta": ["curw_wl_kalalgodaroad", "Kalalgoda", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -253,9 +253,9 @@
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
-            "stationId": "curw_wl_pamunawa",
-            "name": "Pamunawa",
-            "station_meta": ["curw_wl_pamunawa", "Pamunawa", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
+            "stationId": "curw_wl_pamunuwaroad",
+            "name": "Pamunuwa",
+            "station_meta": ["curw_wl_pamunuwaroad", "Pamunuwa", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
