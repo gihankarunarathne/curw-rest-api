@@ -13,6 +13,18 @@
             "description": "Mahapallegama",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_kitulgala",
+            "name": "Kithulgala",
+            "station_meta": ["curw_kitulgala", "Kithulgala", 6.9968020, 80.4071723, 0, "Kithulgala station with standard Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "Kithulgala",
+            "run_name": "A&T Labs"
+        }, {
             "stationId": "curw_kottawa_dharmapala_north",
             "name": "Kottawa North Dharmapala School",
             "station_meta": ["curw_kottawa_dharmapala_north", "Kottawa North Dharmapala School", 6.865576, 79.958181, 0, "Kottawa North Dharmapala School"],
