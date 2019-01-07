@@ -13,6 +13,18 @@
             "description": "Mahapallegama",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_kitulgala",
+            "name": "Kithulgala",
+            "station_meta": ["curw_kitulgala", "Kithulgala", 6.9968020, 80.4071723, 0, "Kithulgala station with standard Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "Kithulgala",
+            "run_name": "A&T Labs"
+        }, {
             "stationId": "curw_kottawa_dharmapala_north",
             "name": "Kottawa North Dharmapala School",
             "station_meta": ["curw_kottawa_dharmapala_north", "Kottawa North Dharmapala School", 6.865576, 79.958181, 0, "Kottawa North Dharmapala School"],
@@ -23,7 +35,7 @@
             "max_values": ["120", "40", "1", "30", "360", "100"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Kottawa North Dharmapala School",
-            "run_name": "A&T Labs"
+            "run_name": "Leecom"
         }, {
             "stationId": "curw_ambatale",
             "name": "Ambatale",
@@ -62,15 +74,15 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_thurstan_college",
-            "name": "Thurstan College",
-            "station_meta": ["curw_thurstan_college", "Thurstan College", 6.90293, 79.85932, 0, "Leecom station with their own Rain Gauge"],
+            "name": "Leecom Test",
+            "station_meta": ["curw_thurstan_college", "Leecom Test", 6.90293, 79.85932, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Thurstan College",
+            "description": "Leecom Test",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ambewela",
@@ -111,15 +123,15 @@
         }, {
             "stationId": "curw_kotikawatta",
             "name": "Kotikawatta",
-            "station_meta": ["curw_kotikawatta", "Kotikawatta", 6.890585 , 80.802551, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "station_meta": ["curw_kotikawatta", "Kotikawatta", 6.890585 , 80.802551, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Tick"],
-            "units": ["mm", "-"],
-            "max_values": ["120", "1"],
-            "min_values": ["0", "0"],
-            "description": "A&T Communication Box, Texas Standard Rain Gauge",
-            "run_name": "A&T Labs"
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Kotikawatta",
+            "run_name": "Leecom"
         }, {
             "stationId": "curw_mulleriyawa",
             "name": "Mulleriyawa",
