@@ -348,6 +348,18 @@
             "min_values": ["0"],
             "description": "Leecom water level guage, Leecom communication box",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_yantai_test",
+            "name": "Yantai WL Guage",
+            "station_meta": ["curw_wl_yantai_test", "Yantai WL Guage", 0.0 , 0.0, 0, "Yantai water level guage, Leecom communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, Leecom communication",
+            "run_name": "Leecom"
         }
     ]
 }
