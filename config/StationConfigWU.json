@@ -64,10 +64,8 @@
             "units": ["mm", "oC", "m/s", "m/s", "degrees", "%", "W/m2"],
             "max_values": ["120", "40", "30", "30", "360", "100", "1413"],
             "min_values": ["0", "0", "0", "0", "0", "0", "0"],
-            "description": "HINGURANA STATION",
-            "run_name": "CUrW IoT",
-            "wunderground": {"stationId": "IMUTWAL1", "password": "xt0eouz3"},
-            "dialog": {"stationId": "Mutwal", "password": "3674010756837044"}
+            "description": "MUTWAL STATION",
+            "run_name": "CUrW IoT"
         }
     ]
 }
