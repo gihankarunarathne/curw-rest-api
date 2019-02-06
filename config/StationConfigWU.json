@@ -56,8 +56,8 @@
             "wunderground": {"stationId": "IKANDY2", "password": "lm120jbq"}
         }, {
             "stationId": "curw_mi_mutwal",
-            "name": "Mutwal",
-            "station_meta": ["curw_mi_mutwal", "Mutwal", 6.95871 , 79.86090, 0, "Mutwal Station"],
+            "name": "Mutwal IoT",
+            "station_meta": ["curw_mi_mutwal", "Mutwal IoT", 6.95871 , 79.86090, 0, "Mutwal Station"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindGust", "WindDirection", "Humidity", "SolarRadiation"],
