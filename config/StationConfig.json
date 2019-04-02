@@ -238,7 +238,7 @@
             "units": ["m"],
             "max_values": ["30"],
             "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
+            "description": "Campbell water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_wl_diyatha_uyana",
@@ -268,30 +268,6 @@
             "stationId": "curw_wl_diyasaru_uyana",
             "name": "Diyasaru Uyana",
             "station_meta": ["curw_wl_diyasaru_uyana", "Diyasaru Uyana", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
-            "source": "WaterLevelGuage",
-            "type": "Observed",
-            "variables": ["Waterlevel"],
-            "units": ["m"],
-            "max_values": ["30"],
-            "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
-            "run_name": "A&T Labs"
-        }, {
-            "stationId": "curw_wl_kalalgodaroad",
-            "name": "Kalalgoda",
-            "station_meta": ["curw_wl_kalalgodaroad", "Kalalgoda", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
-            "source": "WaterLevelGuage",
-            "type": "Observed",
-            "variables": ["Waterlevel"],
-            "units": ["m"],
-            "max_values": ["30"],
-            "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
-            "run_name": "A&T Labs"
-        }, {
-            "stationId": "curw_wl_pamunuwaroad",
-            "name": "Pamunuwa",
-            "station_meta": ["curw_wl_pamunuwaroad", "Pamunuwa", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -372,6 +348,54 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, Leecom communication",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_kitulgala",
+            "name": "Kitulgala",
+            "station_meta": ["curw_wl_kitulgala", "Yantai WL Guage", 6.985569, 80.424258, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_dehiowita",
+            "name": "Dehiowita",
+            "station_meta": ["curw_wl_dehiowita", "Yantai WL Guage", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_kalalgoda",
+            "name": "Kalalgoda",
+            "station_meta": ["curw_wl_kalalgoda", "Yantai WL Guage", 6.864222, 79.942344, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_kaduwela",
+            "name": "Kaduwela",
+            "station_meta": ["curw_wl_ranwala", "Campbell WL Guage", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Campbell water level guage, A&T communication",
+            "run_name": "A&T Labs"
         }
     ]
 }
