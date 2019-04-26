@@ -351,7 +351,7 @@
         }, {
             "stationId": "curw_wl_kitulgala",
             "name": "Kitulgala",
-            "station_meta": ["curw_wl_kitulgala", "Yantai WL Guage", 6.985569, 80.424258, 0, "Yantai water level guage, A&T communication box"],
+            "station_meta": ["curw_wl_kitulgala", "Kitulgala", 6.985569, 80.424258, 0, "Yantai water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -363,7 +363,7 @@
         }, {
             "stationId": "curw_wl_dehiowita",
             "name": "Dehiowita",
-            "station_meta": ["curw_wl_dehiowita", "Yantai WL Guage", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
+            "station_meta": ["curw_wl_dehiowita", "Dehiowita", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -375,7 +375,7 @@
         }, {
             "stationId": "curw_wl_kalalgoda",
             "name": "Kalalgoda",
-            "station_meta": ["curw_wl_kalalgoda", "Yantai WL Guage", 6.864222, 79.942344, 0, "Yantai water level guage, A&T communication box"],
+            "station_meta": ["curw_wl_kalalgoda", "Kalalgoda", 6.864222, 79.942344, 0, "Yantai water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -387,7 +387,7 @@
         }, {
             "stationId": "curw_wl_kaduwela",
             "name": "Kaduwela",
-            "station_meta": ["curw_wl_ranwala", "Campbell WL Guage", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
+            "station_meta": ["curw_wl_kaduwela", "Kaduwela", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
