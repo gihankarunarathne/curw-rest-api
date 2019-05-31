@@ -564,6 +564,42 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Jalthara",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_makumbura",
+            "name": "Makumbura",
+            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529 , 79.97683, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Makumbura",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_attidiya",
+            "name": "Attidiya",
+            "station_meta": ["curw_ws_attidiya", "Attidiya", 6.84564 , 79.88467, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Attidiya",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_mulleriyawa",
+            "name": "Mulleriyawa",
+            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360 , 79.94115, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Mulleriyawa",
+            "run_name": "Leecom"
         }
     ]
 }
