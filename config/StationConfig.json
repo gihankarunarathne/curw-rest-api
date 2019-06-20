@@ -600,6 +600,18 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Mulleriyawa",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_mattakkuliya",
+            "name": "Mattakkuliya",
+            "station_meta": ["curw_wl_mattakkuliya", "Mattakkuliya", 6.980881, 79.875169, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
         }
     ]
 }
