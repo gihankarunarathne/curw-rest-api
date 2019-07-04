@@ -612,6 +612,19 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_jalthara",
+      	    "name": "Jalthara",
+            "station_meta": ["curw_jalthara", "Jalthara", 6.900257 , 80.046286, 0, "A&T communication box"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation"],
+            "units": ["mm"],
+            "max_values": ["120"],
+            "min_values": ["0"],
+            "description": "A&T communication Box",
+            "run_name": "A&T Labs",
         }
+
     ]
 }
