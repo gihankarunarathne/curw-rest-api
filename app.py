@@ -48,13 +48,13 @@ try:
     STATION_CONFIG = pjoin(root_dir, 'config/StationConfig.json')
     CON_DATA = json.loads(open(STATION_CONFIG).read())
     stations_map = get_station_hash_map(CON_DATA['stations'])
-    logger_bulk.info("%s", json.dumps(stations_map))
+
 
     # Get Station Data for Single Upload Chinese weather stations
     STATION_CONFIG_WU = pjoin(root_dir, 'config/StationConfigWU.json')
     CON_WU_DATA = json.loads(open(STATION_CONFIG_WU).read())
     wu_stations_map = get_station_hash_map(CON_WU_DATA['stations'])
-    logger_bulk.info("%s", json.dumps(wu_stations_map))
+
     # Create common format with None values
     script_path = os.path.dirname(os.path.realpath(__file__))
     common_format = json.loads(open(os.path.join(script_path, 'config/TimeStep.json')).read())
