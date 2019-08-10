@@ -360,6 +360,18 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, Leecom communication",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_aruwakkalu",
+            "name": "Aruwakkalu",
+            "station_meta": ["curw_ws_aruwakkalu", "Aruwakkalu", 8.241336, 79.819860, 0, "Leecom station, Aruwakkalu Sanitary Station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Leecom station, Aruwakkalu Sanitary Station",
+            "run_name": "Leecom"
         }
     ]
 }
