@@ -348,18 +348,6 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, Leecom communication",
             "run_name": "Leecom"
-        }, {
-            "stationId": "curw_ws_aruwakkalu",
-            "name": "Aruwakkalu",
-            "station_meta": ["curw_ws_aruwakkalu", "Aruwakkalu", 8.241336, 79.819860, 0, "Leecom station, Aruwakkalu Sanitary Station"]
-            "source": "WeatherStation",
-            "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Leecom station, Aruwakkalu Sanitary Station",
-            "run_name": "Leecom"
         }, { 
             "stationId": "curw_wl_kitulgala",
             "name": "Kitulgala",
@@ -419,18 +407,6 @@
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Mutwal Andrews College",
-            "run_name": "Leecom"
-        }, {
-            "stationId": "curw_ws_nugegoda",
-            "name": "Nugegoda",
-            "station_meta": ["curw_ws_nugegoda", "Nugegoda", 6.87222 , 79.888, 0, "Leecom station with their own Rain Gauge"],
-            "source": "WeatherStation",
-            "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"]
-            "description": "Nugegoda",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_gonawala",
@@ -624,6 +600,18 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_ws_nugegoda",
+            "name": "Nugegoda",
+            "station_meta": ["curw_ws_nugegoda", "Nugegoda", 6.872222, 79.888, 0, "Leecom station with their own rain Guage"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Nugegoda",
+            "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_aruwakkalu",
             "name": "Aruwakkalu",
