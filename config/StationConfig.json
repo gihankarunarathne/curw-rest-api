@@ -372,6 +372,6 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Leecom station, Aruwakkalu Sanitary Landfill",
             "run_name": "Leecom"
-        },
+        }
     ]
 }
