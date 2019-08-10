@@ -13,6 +13,18 @@
             "description": "Mahapallegama",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_kitulgala",
+            "name": "Kithulgala",
+            "station_meta": ["curw_kitulgala", "Kithulgala", 6.9968020, 80.4071723, 0, "Kithulgala station with standard Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "Kithulgala",
+            "run_name": "A&T Labs"
+        }, {
             "stationId": "curw_kottawa_dharmapala_north",
             "name": "Kottawa North Dharmapala School",
             "station_meta": ["curw_kottawa_dharmapala_north", "Kottawa North Dharmapala School", 6.865576, 79.958181, 0, "Kottawa North Dharmapala School"],
@@ -183,15 +195,15 @@
         }, {
             "stationId": "curw_kohuwala",
             "name": "Kohuwala",
-            "station_meta": ["curw_kohuwala", "Kohuwala", 6.860887, 79.885825, 0, "Raspberrypi Communication Box, Davis Standard Rain Gauge"],
+            "station_meta": ["curw_kohuwala", "Kohuwala", 6.860887, 79.885825, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
             "units": ["mm", "-"],
             "max_values": ["120", "1"],
             "min_values": ["0", "0"],
-            "description": "Raspberrypi Communication Box, Davis Standard Rain Gauge",
-            "run_name": "CUrW Station"
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
         }, {
             "stationId": "curw_sllrdc",
             "name": "Rajagiriya",
@@ -207,15 +219,15 @@
         }, {
             "stationId": "curw_attidiya",
             "name": "Attidiya",
-            "station_meta": ["curw_attidiya", "Attidiya", 6.8458199, 79.8829689, 0, "Raspberrypi Communication Box, Davis Standard Rain Gauge"],
+            "station_meta": ["curw_attidiya", "Attidiya", 6.8458199, 79.8829689, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
             "units": ["mm", "-"],
             "max_values": ["120", "1"],
             "min_values": ["0", "0"],
-            "description": "Raspberrypi Communication Box, Davis Standard Rain Gauge",
-            "run_name": "CUrW Station"
+            "description": "A&T Communication Box, Texas Standard Rain Gauge",
+            "run_name": "A&T Labs"
         }, {
             "stationId": "curw_wl_ranwala",
             "name": "Ranwala Bridge",
@@ -226,7 +238,7 @@
             "units": ["m"],
             "max_values": ["30"],
             "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
+            "description": "Campbell water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_wl_diyatha_uyana",
@@ -256,30 +268,6 @@
             "stationId": "curw_wl_diyasaru_uyana",
             "name": "Diyasaru Uyana",
             "station_meta": ["curw_wl_diyasaru_uyana", "Diyasaru Uyana", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
-            "source": "WaterLevelGuage",
-            "type": "Observed",
-            "variables": ["Waterlevel"],
-            "units": ["m"],
-            "max_values": ["30"],
-            "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
-            "run_name": "A&T Labs"
-        }, {
-            "stationId": "curw_wl_kalalgodaroad",
-            "name": "Kalalgoda",
-            "station_meta": ["curw_wl_kalalgodaroad", "Kalalgoda", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
-            "source": "WaterLevelGuage",
-            "type": "Observed",
-            "variables": ["Waterlevel"],
-            "units": ["m"],
-            "max_values": ["30"],
-            "min_values": ["0"],
-            "description": "Yantai water level guage, A&T communication",
-            "run_name": "A&T Labs"
-        }, {
-            "stationId": "curw_wl_pamunuwaroad",
-            "name": "Pamunuwa",
-            "station_meta": ["curw_wl_pamunuwaroad", "Pamunuwa", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -363,7 +351,7 @@
         }, {
             "stationId": "curw_ws_aruwakkalu",
             "name": "Aruwakkalu",
-            "station_meta": ["curw_ws_aruwakkalu", "Aruwakkalu", 8.241336, 79.819860, 0, "Leecom station, Aruwakkalu Sanitary Station"],
+            "station_meta": ["curw_ws_aruwakkalu", "Aruwakkalu", 8.241336, 79.819860, 0, "Leecom station, Aruwakkalu Sanitary Station"]
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -372,6 +360,270 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Leecom station, Aruwakkalu Sanitary Station",
             "run_name": "Leecom"
+        }, { 
+            "stationId": "curw_wl_kitulgala",
+            "name": "Kitulgala",
+            "station_meta": ["curw_wl_kitulgala", "Kitulgala", 6.985569, 80.424258, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_dehiowita",
+            "name": "Dehiowita",
+            "station_meta": ["curw_wl_dehiowita", "Dehiowita", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_kalalgoda",
+            "name": "Kalalgoda",
+            "station_meta": ["curw_wl_kalalgoda", "Kalalgoda", 6.864222, 79.942344, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        }, {
+            "stationId": "curw_wl_kaduwela",
+            "name": "Kaduwela",
+            "station_meta": ["curw_wl_kaduwela", "Kaduwela", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Campbell water level guage, A&T communication",
+            "run_name": "A&T Labs"
+        } , {
+            "stationId": "curw_ws_mutwal",
+            "name": "Mutwal Andrews College",
+            "station_meta": ["curw_ws_mutwal", "Mutwal Andrews College", 6.95876 , 79.86091, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Mutwal Andrews College",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_nugegoda",
+            "name": "Nugegoda",
+            "station_meta": ["curw_ws_nugegoda", "Nugegoda", 6.87222 , 79.888, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"]
+            "description": "Nugegoda",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_gonawala",
+            "name": "Gonawala",
+            "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575 , 79.93936, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Gonawala",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_arangala",
+            "name": "Arangala",
+            "station_meta": ["curw_ws_arangala", "Arangala", 6.88492 , 79.96842, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Arangala",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_waga",
+            "name": "Waga Rathanasara College",
+            "station_meta": ["curw_ws_waga", "Waga Rathanasara College", 6.86893 , 80.15402, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Waga Rathanasara College",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_hingurana",
+            "name": "Hingurana Kanishta Vidyalaya",
+            "station_meta": ["curw_ws_hingurana", "Hingurana Kanishta Vidyalaya", 6.90455 , 80.40789, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Hingurana Kanishta Vidyalaya",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_kaduwela",
+            "name": "Kaduwela",
+            "station_meta": ["curw_ws_kaduwela", "Kaduwela", 6.93151 , 79.97572, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Kaduwela",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_thalawathugoda",
+            "name": "Thalawathugoda",
+            "station_meta": ["curw_ws_thalawathugoda", "Thalawathugoda", 6.87363 , 79.95041, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Thalawathugoda",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_boralasgamuwa",
+            "name": "Boralasgamuwa",
+            "station_meta": ["curw_ws_boralasgamuwa", "Boralasgamuwa", 6.8403 , 79.91629, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Boralasgamuwa",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_maradana",
+            "name": "Maradana",
+            "station_meta": ["curw_ws_maradana", "Maradana", 6.92725 , 79.86292, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Maradana",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_kelaniya",
+            "name": "Kelaniya",
+            "station_meta": ["curw_ws_kelaniya", "Kelaniya", 6.9553 , 79.91739, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Kelaniya",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_nawala",
+            "name": "Nawala",
+            "station_meta": ["curw_ws_nawala", "Nawala", 6.89916 , 79.88443, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Nawala",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_dehiowita",
+            "name": "Dehiowita",
+            "station_meta": ["curw_ws_dehiowita", "Dehiowita", 6.96453 , 80.26477, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Dehiowita",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_jalthara",
+            "name": "Jalthara",
+            "station_meta": ["curw_ws_jalthara", "Jalthara", 6.90028 , 80.04624, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Jalthara",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_makumbura",
+            "name": "Makumbura",
+            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529 , 79.97683, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Makumbura",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_attidiya",
+            "name": "Attidiya",
+            "station_meta": ["curw_ws_attidiya", "Attidiya", 6.84564 , 79.88467, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Attidiya",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_mulleriyawa",
+            "name": "Mulleriyawa",
+            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360 , 79.94115, 0, "Leecom station with their own Rain Gauge"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Mulleriyawa",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_wl_mattakkuliya",
+            "name": "Mattakkuliya",
+            "station_meta": ["curw_wl_mattakkuliya", "Mattakkuliya", 6.980881, 79.875169, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, A&T communication",
+            "run_name": "A&T Labs"
         }
     ]
 }

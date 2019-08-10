@@ -49,6 +49,7 @@ try:
     CON_DATA = json.loads(open(STATION_CONFIG).read())
     stations_map = get_station_hash_map(CON_DATA['stations'])
 
+
     # Get Station Data for Single Upload Chinese weather stations
     STATION_CONFIG_WU = pjoin(root_dir, 'config/StationConfigWU.json')
     CON_WU_DATA = json.loads(open(STATION_CONFIG_WU).read())
