@@ -99,7 +99,7 @@
         }, {
             "stationId": "curw_wl_test",
             "name": "Leecom WL Guage",
-            "station_meta": ["curw_wl_test", "Leecom WL Guage", 6.890585 , 80.802551, 0, "Leecom water level guage, testing station"],
+            "station_meta": ["curw_wl_test", "Leecom WL Guage", 6.879243, 79.929304, 0, "Leecom water level guage, testing station"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -111,7 +111,7 @@
         }, {
             "stationId": "curw_madiwela",
             "name": "Madiwela",
-            "station_meta": ["curw_madiwela", "Madiwela", 6.890585 , 80.802551, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "station_meta": ["curw_madiwela", "Madiwela", 6.890585, 80.802551, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
@@ -123,7 +123,7 @@
         }, {
             "stationId": "curw_kotikawatta",
             "name": "Kotikawatta",
-            "station_meta": ["curw_kotikawatta", "Kotikawatta", 6.890585 , 80.802551, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_kotikawatta", "Kotikawatta", 6.93494, 79.915356, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -231,7 +231,7 @@
         }, {
             "stationId": "curw_wl_ranwala",
             "name": "Ranwala Bridge",
-            "station_meta": ["curw_wl_ranwala", "Ranwala Bridge", 6.890585 , 80.802551, 0, "Campbell water level guage, A&T communication"],
+            "station_meta": ["curw_wl_ranwala", "Ranwala Bridge", 6.970685, 80.165118, 0, "Campbell water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -243,7 +243,7 @@
         }, {
             "stationId": "curw_wl_diyatha_uyana",
             "name": "Diyatha Uyana",
-            "station_meta": ["curw_wl_diyatha_uyana", "Diyatha Uyana", 6.890585 , 80.802551, 0, "Campbell water level guage, A&T communication"],
+            "station_meta": ["curw_wl_diyatha_uyana", "Diyatha Uyana", 6.903649, 79.909019, 0, "Campbell water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -255,7 +255,7 @@
         }, {
             "stationId": "curw_wl_nearsllrdc",
             "name": "SLLRDC",
-            "station_meta": ["curw_wl_nearsllrdc", "SLLRDC", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
+            "station_meta": ["curw_wl_nearsllrdc", "SLLRDC", 6.890585, 80.802551, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -267,7 +267,7 @@
         }, {
             "stationId": "curw_wl_diyasaru_uyana",
             "name": "Diyasaru Uyana",
-            "station_meta": ["curw_wl_diyasaru_uyana", "Diyasaru Uyana", 6.890585 , 80.802551, 0, "Yantai water level guage, A&T communication"],
+            "station_meta": ["curw_wl_diyasaru_uyana", "Diyasaru Uyana", 6.878987, 79.930433, 0, "Yantai water level guage, A&T communication"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -279,7 +279,7 @@
         }, {
             "stationId": "curw_wl_yakbedda",
             "name": "Yakbedda",
-            "station_meta": ["curw_wl_yakbedda", "Yakbedda", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_yakbedda", "Yakbedda", 6.92361, 79.89105, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -291,7 +291,7 @@
         }, {
             "stationId": "curw_wl_wellawatta",
             "name": "Wellawatta",
-            "station_meta": ["curw_wl_wellawatta", "Wellawatta", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_wellawatta", "Wellawatta", 6.88041, 79.86208, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -303,7 +303,7 @@
         }, {
             "stationId": "curw_wl_wellampitiya",
             "name": "Wellampitiya",
-            "station_meta": ["curw_wl_wellampitiya", "Wellampitiya", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_wellampitiya", "Wellampitiya", 6.93721, 79.8973, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -315,7 +315,7 @@
         }, {
             "stationId": "curw_wl_ingurukade",
             "name": "Ingurukade",
-            "station_meta": ["curw_wl_ingurukade", "Ingurukade", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_ingurukade", "Ingurukade", 6.95101, 79.87467, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -327,7 +327,7 @@
         }, {
             "stationId": "curw_wl_janakalakendraya",
             "name": "Janakala Kendraya",
-            "station_meta": ["curw_wl_janakalakendraya", "Janakala Kendraya", 0.0 , 0.0, 0, "Leecom water level guage, Leecom communication box"],
+            "station_meta": ["curw_wl_janakalakendraya", "Janakala Kendraya", 6.892276, 79.921876, 0, "Leecom water level guage, Leecom communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -399,7 +399,7 @@
         } , {
             "stationId": "curw_ws_mutwal",
             "name": "Mutwal Andrews College",
-            "station_meta": ["curw_ws_mutwal", "Mutwal Andrews College", 6.95876 , 79.86091, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_mutwal", "Mutwal Andrews College", 6.95876, 79.86091, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -411,7 +411,7 @@
         }, {
             "stationId": "curw_ws_gonawala",
             "name": "Gonawala",
-            "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575 , 79.93936, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575, 79.93936, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -423,7 +423,7 @@
         }, {
             "stationId": "curw_ws_arangala",
             "name": "Arangala",
-            "station_meta": ["curw_ws_arangala", "Arangala", 6.88492 , 79.96842, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_arangala", "Arangala", 6.88492, 79.96842, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -435,7 +435,7 @@
         }, {
             "stationId": "curw_ws_waga",
             "name": "Waga Rathanasara College",
-            "station_meta": ["curw_ws_waga", "Waga Rathanasara College", 6.86893 , 80.15402, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_waga", "Waga Rathanasara College", 6.86893, 80.15402, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -447,7 +447,7 @@
         }, {
             "stationId": "curw_ws_hingurana",
             "name": "Hingurana Kanishta Vidyalaya",
-            "station_meta": ["curw_ws_hingurana", "Hingurana Kanishta Vidyalaya", 6.90455 , 80.40789, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_hingurana", "Hingurana Kanishta Vidyalaya", 6.90455, 80.40789, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -459,7 +459,7 @@
         }, {
             "stationId": "curw_ws_kaduwela",
             "name": "Kaduwela",
-            "station_meta": ["curw_ws_kaduwela", "Kaduwela", 6.93151 , 79.97572, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_kaduwela", "Kaduwela", 6.93151, 79.97572, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -471,7 +471,7 @@
         }, {
             "stationId": "curw_ws_thalawathugoda",
             "name": "Thalawathugoda",
-            "station_meta": ["curw_ws_thalawathugoda", "Thalawathugoda", 6.87363 , 79.95041, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_thalawathugoda", "Thalawathugoda", 6.87363, 79.95041, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -483,7 +483,7 @@
         }, {
             "stationId": "curw_ws_boralasgamuwa",
             "name": "Boralasgamuwa",
-            "station_meta": ["curw_ws_boralasgamuwa", "Boralasgamuwa", 6.8403 , 79.91629, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_boralasgamuwa", "Boralasgamuwa", 6.8403, 79.91629, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -495,7 +495,7 @@
         }, {
             "stationId": "curw_ws_maradana",
             "name": "Maradana",
-            "station_meta": ["curw_ws_maradana", "Maradana", 6.92725 , 79.86292, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_maradana", "Maradana", 6.92725, 79.86292, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -507,7 +507,7 @@
         }, {
             "stationId": "curw_ws_kelaniya",
             "name": "Kelaniya",
-            "station_meta": ["curw_ws_kelaniya", "Kelaniya", 6.9553 , 79.91739, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_kelaniya", "Kelaniya", 6.9553, 79.91739, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -519,7 +519,7 @@
         }, {
             "stationId": "curw_ws_nawala",
             "name": "Nawala",
-            "station_meta": ["curw_ws_nawala", "Nawala", 6.89916 , 79.88443, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_nawala", "Nawala", 6.89916, 79.88443, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -531,7 +531,7 @@
         }, {
             "stationId": "curw_ws_dehiowita",
             "name": "Dehiowita",
-            "station_meta": ["curw_ws_dehiowita", "Dehiowita", 6.96453 , 80.26477, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_dehiowita", "Dehiowita", 6.96453, 80.26477, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -543,7 +543,7 @@
         }, {
             "stationId": "curw_ws_jalthara",
             "name": "Jalthara",
-            "station_meta": ["curw_ws_jalthara", "Jalthara", 6.90028 , 80.04624, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_jalthara", "Jalthara", 6.90028, 80.04624, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -555,7 +555,7 @@
         }, {
             "stationId": "curw_ws_makumbura",
             "name": "Makumbura",
-            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529 , 79.97683, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529, 79.97683, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -567,7 +567,7 @@
         }, {
             "stationId": "curw_ws_attidiya",
             "name": "Attidiya",
-            "station_meta": ["curw_ws_attidiya", "Attidiya", 6.84564 , 79.88467, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_attidiya", "Attidiya", 6.84564, 79.88467, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -579,7 +579,7 @@
         }, {
             "stationId": "curw_ws_mulleriyawa",
             "name": "Mulleriyawa",
-            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360 , 79.94115, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
