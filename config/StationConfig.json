@@ -768,6 +768,30 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Leecom station, District Secretrait - Jaffna",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_anuradhapura",
+            "name": "Anuradhapura",
+            "station_meta": ["curw_ws_anuradhapura", "Anuradhapura", 8.335535, 80.407494, 0, "Leecom station, Anuradhapura Central College"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Leecom station, Anuradhapura Central College",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_naula",
+            "name": "Naula",
+            "station_meta": ["curw_ws_naula", "Naula", 7.741352, 80.684432, 0, "Leecom station, Dhammahadaya Vivek Senasuna Naula"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
+            "max_values": ["120", "40", "30", "360", "100", "1"],
+            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "description": "Leecom station, Dhammahadaya Vivek Senasuna Naula",
+            "run_name": "Leecom"
         }
     ]
 }
