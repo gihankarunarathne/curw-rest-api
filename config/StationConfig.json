@@ -386,8 +386,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_wl_kaduwela",
-            "name": "Kaduwela",
-            "station_meta": ["curw_wl_kaduwela", "Kaduwela", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
+            "name": "Kaduwela Bridge",
+            "station_meta": ["curw_wl_kaduwela", "Kaduwela Bridge", 6.936431, 79.985192, 0, "Campbell water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
@@ -411,38 +411,38 @@
         }, {
             "stationId": "curw_ws_gonawala",
             "name": "Gonawala",
-            "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575, 79.93936, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575, 79.93936, 0, "Leecom station, Kelanithissa Vidyalaya Gonawala"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Gonawala",
+            "description": "Leecom station, Kelanithissa Vidyalaya Gonawala",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_arangala",
             "name": "Arangala",
-            "station_meta": ["curw_ws_arangala", "Arangala", 6.88492, 79.96842, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_arangala", "Arangala", 6.88492, 79.96842, 0, "Leecom station, Rathana Kanishta Vidyalaya Arangala"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Arangala",
+            "description": "Leecom station, Rathana Kanishta Vidyalaya Arangala",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_waga",
-            "name": "Waga Rathanasara College",
-            "station_meta": ["curw_ws_waga", "Waga Rathanasara College", 6.86893, 80.15402, 0, "Leecom station with their own Rain Gauge"],
+            "name": "Waga",
+            "station_meta": ["curw_ws_waga", "Waga", 6.86893, 80.15402, 0, "Leecom station,  Rathanasara College"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Waga Rathanasara College",
+            "description": "Leecom station,  Rathanasara College",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_hingurana",
@@ -555,14 +555,14 @@
         }, {
             "stationId": "curw_ws_makumbura",
             "name": "Makumbura",
-            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529, 79.97683, 0, "Leecom station with their own Rain Gauge"],
+            "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529, 79.97683, 0, "Leecom station, Vijayagosha Vidyalaya Makumbura"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
             "max_values": ["120", "40", "30", "360", "100", "1"],
             "min_values": ["0", "0", "0", "0", "0", "0"],
-            "description": "Makumbura",
+            "description": "Leecom station, Vijayagosha Vidyalaya Makumbura",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_attidiya",
@@ -590,8 +590,8 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_wl_mattakkuliya",
-            "name": "Mattakkuliya",
-            "station_meta": ["curw_wl_mattakkuliya", "Mattakkuliya", 6.980881, 79.875169, 0, "Yantai water level guage, A&T communication box"],
+            "name": "Mattakkuliya Bridge",
+            "station_meta": ["curw_wl_mattakkuliya", "Mattakkuliya Bridge", 6.980881, 79.875169, 0, "Yantai water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
