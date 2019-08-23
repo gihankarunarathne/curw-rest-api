@@ -2,8 +2,8 @@
     "stations" : [
         {
             "stationId": "curw_mahapallegama",
-            "name": "Mahapallegama",
-            "station_meta": ["curw_mahapallegama", "Mahapallegama", 7.169737, 80.258512, 0, "Mahapallegama station with standard Gauge"],
+            "name": "Mahapallegama Study",
+            "station_meta": ["curw_mahapallegama", "Mahapallegama Study", 7.169737, 80.258512, 0, "Mahapallegama station with standard Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
@@ -62,8 +62,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_waga",
-            "name": "Waga",
-            "station_meta": ["curw_waga", "Waga", 6.906780, 80.118275, 0, "Waga Station"],
+            "name": "Waga Study",
+            "station_meta": ["curw_waga", "Waga Study", 6.906780, 80.118275, 0, "Waga Station"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "Tick"],
@@ -146,8 +146,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_mutwal",
-            "name": "Mutwal",
-            "station_meta": ["curw_mutwal", "Mutwal", 6.95871 , 79.86090, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "name": "Mutwal Study",
+            "station_meta": ["curw_mutwal", "Mutwal Study", 6.95871 , 79.86090, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
@@ -158,8 +158,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_malabe",
-            "name": "Malabe",
-            "station_meta": ["curw_malabe", "Malabe", 6.90396 , 79.95738, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "name": "Malabe Study",
+            "station_meta": ["curw_malabe", "Malabe Study", 6.90396 , 79.95738, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
@@ -218,8 +218,8 @@
             "run_name": "CUrW Station"
         }, {
             "stationId": "curw_attidiya",
-            "name": "Attidiya",
-            "station_meta": ["curw_attidiya", "Attidiya", 6.8458199, 79.8829689, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "name": "Attidiya Study",
+            "station_meta": ["curw_attidiya", "Attidiya Study", 6.8458199, 79.8829689, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
@@ -578,8 +578,8 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_mulleriyawa",
-            "name": "Mulleriyawa",
-            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
+            "name": "Mulleriyawa Study",
+            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa Study", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
