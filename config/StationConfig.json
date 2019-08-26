@@ -578,8 +578,8 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_mulleriyawa",
-            "name": "Mulleriyawa Study",
-            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa Study", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
+            "name": "Mulleriyawa",
+            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
