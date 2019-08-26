@@ -134,8 +134,8 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_mulleriyawa",
-            "name": "Mulleriyawa",
-            "station_meta": ["curw_mulleriyawa", "Mulleriyawa", 6.923571 , 79.94118, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "name": "Mulleriyawa Study",
+            "station_meta": ["curw_mulleriyawa", "Mulleriyawa Study", 6.923571 , 79.94118, 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
