@@ -182,8 +182,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_urumewella",
-            "name": "Urumewella",
-            "station_meta": ["curw_urumewella", "Urumewella", 7.079348 , 80.348785 , 0, "A&T Communication Box, Texas Standard Rain Gauge"],
+            "name": "Urumewella Study",
+            "station_meta": ["curw_urumewella", "Urumewella Study", 7.079348 , 80.348785 , 0, "A&T Communication Box, Texas Standard Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Tick"],
