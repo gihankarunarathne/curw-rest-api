@@ -792,6 +792,78 @@
             "min_values": ["0", "0", "0", "0", "0", "0"],
             "description": "Leecom station, Dhammahadaya Vivek Senasuna Naula",
             "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_ragama",
+            "name": "Ragama",
+            "station_meta": ["sllrdc_rg_ragama", "Ragama", 7.023772, 79.926111, 0, "R-01 Besilica college, Ragama, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-01 Besilica college, Ragama, Leecom station",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_kadawatha",
+            "name": "Kadawatha",
+            "station_meta": ["sllrdc_rg_kadawatha", "Kadawatha", 6.989447, 79.938278, 0, "R-02 Kelaniya president college, mahara, kadawatha, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-02 Kelaniya president college, mahara, kadawatha, Leecom station",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_horana",
+            "name": "Horana",
+            "station_meta": ["sllrdc_rg_horana", "Horana", 6.725572, 80.033831, 0, "R-09 Sirimevan Vidyalaya, Pokunuvita, Horana, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-09 Sirimevan Vidyalaya, Pokunuvita, Horana, Leecom station",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_homagama",
+            "name": "Homagama",
+            "station_meta": ["sllrdc_rg_homagama", "Homagama", 6.822722, 80.030467, 0, "R-06 Pitipana College, Pitipana North, Homagama, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-06 Pitipana College, Pitipana North, Homagama, Leecom station",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_wadduwa",
+            "name": "Wadduwa",
+            "station_meta": ["sllrdc_rg_wadduwa", "Wadduwa", 6.662917, 79.958092, 0, "R-10 Mawala Kanishta Vidyalaya,Mawala, Wadduwa, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-10 Mawala Kanishta Vidyalaya,Mawala, Wadduwa, Leecom station",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "sllrdc_rg_peliyagoda",
+            "name": "Peliyagoda",
+            "station_meta": ["sllrdc_rg_peliyagoda", "Peliyagoda", 6.968153, 79.906367, 0, "R-03 MudunEla Sand Pile, Leecom station"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Tick"],
+            "units": ["mm", "-"],
+            "max_values": ["120", "1"],
+            "min_values": ["0", "0"],
+            "description": "R-10 Mawala Kanishta Vidyalaya,Mawala, Wadduwa, Leecom station",
+            "run_name": "Leecom"
         }
     ]
 }
