@@ -50,11 +50,11 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_hingurana",
-            "name": "Hingurana",
-            "station_meta": ["curw_hingurana", "Hingurana", 6.904552, 80.407895, 0, "Hingurana Station"],
+            "name": "Hingurana Study",
+            "station_meta": ["curw_hingurana", "Hingurana Study", 6.904552, 80.407895, 0, "Hingurana Station"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "Tick"],
+            "variables": ["Precipitation", "Temperature", "Tick"], 
             "units": ["mm", "oC", "-"],
             "max_values": ["120", "40", "1"],
             "min_values": ["0", "0", "0"],
@@ -446,8 +446,8 @@
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_hingurana",
-            "name": "Hingurana Kanishta Vidyalaya",
-            "station_meta": ["curw_ws_hingurana", "Hingurana Kanishta Vidyalaya", 6.90455, 80.40789, 0, "Leecom station with their own Rain Gauge"],
+            "name": "Hingurana",
+            "station_meta": ["curw_ws_hingurana", "Hingurana", 6.90455, 80.40789, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
@@ -759,7 +759,7 @@
         }, {
             "stationId": "curw_ws_jaffna",
             "name": "Jaffna",
-            "station_meta": ["curw_ws_jaffna", "Jaffna", 9.661415, 80.029466, 0, "Leecom station, District Secretrait - Jaffna"],
+            "station_meta": ["curw_ws_jaffna", "Jaffna", 9.661416, 80.029467, 0, "Leecom station, District Secretrait - Jaffna"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
