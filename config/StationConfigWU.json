@@ -15,8 +15,8 @@
             "wunderground": {"stationId": "ICOLOMBO20", "password": "fur0gxzz"}
         }, {
             "stationId": "curw_jaffna",
-            "name": "Jaffna",
-            "station_meta": ["curw_jaffna", "Jaffna", 9.6607949, 80.0298459, 0, "District Secretariat Office Jaffna"],
+            "name": "Jaffna Study",
+            "station_meta": ["curw_jaffna", "Jaffna Study", 9.6607949, 80.0298459, 0, "District Secretariat Office Jaffna"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindGust", "WindDirection", "Humidity", "SolarRadiation"],
