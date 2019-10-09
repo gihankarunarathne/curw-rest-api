@@ -28,7 +28,7 @@
             "wunderground": {"stationId": "IJAFFNAP2", "password": "xjkyw8cn"}
         }, {
             "stationId": "curw_hingurana",
-            "name": "Hingurana",
+            "name": "Hingurana Study",
             "station_meta": ["curw_hingurana", "Hingurana", 6.904552, 80.407895, 0, "Hingurana Station"],
             "source": "WeatherStation",
             "type": "Observed",
