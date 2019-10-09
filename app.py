@@ -206,6 +206,11 @@ def update_weather_station():
                 # -- SolarRadiation
                 if 'solarradiation' in time_step:
                     new_time_step['SolarRadiationW/m2'] = Utils.get_float(time_step['solarradiation'], 'solarradiation', logger_bulk)
+
+                # -- Pressure
+                if 'baromMM' in time_step:
+                    new_time_step['pressureBaromMM'] = Utils.get_float(time_step['baromMM'], 'baromMM', logger_bulk)
+                    
             except Exception as error:
                 logger_bulk.error(error)
                 return "Bad Request: " + str(error), 400
