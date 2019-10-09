@@ -126,10 +126,10 @@
             "station_meta": ["curw_kotikawatta", "Kotikawatta", 6.93494, 79.915356, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Kotikawatta",
             "run_name": "Leecom"
         }, {
@@ -402,10 +402,10 @@
             "station_meta": ["curw_ws_mutwal", "Mutwal Andrews College", 6.95876, 79.86091, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Mutwal Andrews College",
             "run_name": "Leecom"
         }, {
@@ -414,10 +414,10 @@
             "station_meta": ["curw_ws_gonawala", "Gonawala", 6.9575, 79.93936, 0, "Leecom station, Kelanithissa Vidyalaya Gonawala"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Kelanithissa Vidyalaya Gonawala",
             "run_name": "Leecom"
         }, {
@@ -426,10 +426,10 @@
             "station_meta": ["curw_ws_arangala", "Arangala", 6.88492, 79.96842, 0, "Leecom station, Rathana Kanishta Vidyalaya Arangala"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Rathana Kanishta Vidyalaya Arangala",
             "run_name": "Leecom"
         }, {
@@ -438,10 +438,10 @@
             "station_meta": ["curw_ws_waga", "Waga", 6.86893, 80.15402, 0, "Leecom station,  Rathanasara College"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station,  Rathanasara College",
             "run_name": "Leecom"
         }, {
@@ -450,10 +450,10 @@
             "station_meta": ["curw_ws_hingurana", "Hingurana", 6.90455, 80.40789, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Hingurana Kanishta Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -462,10 +462,10 @@
             "station_meta": ["curw_ws_kaduwela", "Kaduwela", 6.93151, 79.97572, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Kaduwela",
             "run_name": "Leecom"
         }, {
@@ -474,10 +474,10 @@
             "station_meta": ["curw_ws_thalawathugoda", "Thalawathugoda", 6.87363, 79.95041, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Thalawathugoda",
             "run_name": "Leecom"
         }, {
@@ -486,10 +486,10 @@
             "station_meta": ["curw_ws_boralasgamuwa", "Boralasgamuwa", 6.8403, 79.91629, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Boralasgamuwa",
             "run_name": "Leecom"
         }, {
@@ -498,10 +498,10 @@
             "station_meta": ["curw_ws_maradana", "Maradana", 6.92725, 79.86292, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Maradana",
             "run_name": "Leecom"
         }, {
@@ -510,10 +510,10 @@
             "station_meta": ["curw_ws_kelaniya", "Kelaniya", 6.9553, 79.91739, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Kelaniya",
             "run_name": "Leecom"
         }, {
@@ -522,10 +522,10 @@
             "station_meta": ["curw_ws_nawala", "Nawala", 6.89916, 79.88443, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Nawala",
             "run_name": "Leecom"
         }, {
@@ -534,10 +534,10 @@
             "station_meta": ["curw_ws_dehiowita", "Dehiowita", 6.96453, 80.26477, 0, "Leecom station, Dehiowita National College"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Dehiowita National College",
             "run_name": "Leecom"
         }, {
@@ -546,10 +546,10 @@
             "station_meta": ["curw_ws_jalthara", "Jalthara", 6.90028, 80.04624, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Jalthara",
             "run_name": "Leecom"
         }, {
@@ -558,10 +558,10 @@
             "station_meta": ["curw_ws_makumbura", "Makumbura", 6.84529, 79.97683, 0, "Leecom station, Vijayagosha Vidyalaya Makumbura"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Vijayagosha Vidyalaya Makumbura",
             "run_name": "Leecom"
         }, {
@@ -570,10 +570,10 @@
             "station_meta": ["curw_ws_attidiya", "Attidiya", 6.84564, 79.88467, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Attidiya",
             "run_name": "Leecom"
         }, {
@@ -582,10 +582,10 @@
             "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Mulleriyawa",
             "run_name": "Leecom"
         }, {
@@ -606,10 +606,10 @@
             "station_meta": ["curw_ws_nugegoda", "Nugegoda", 6.872222, 79.888, 0, "Leecom station with their own rain Guage"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Nugegoda",
             "run_name": "Leecom"
         }, {
@@ -618,10 +618,10 @@
             "station_meta": ["curw_ws_aruwakkalu", "aruwakkalu", 8.241336, 79.819860, 0, "Leecom station, Aruwakkalu Sanitary Landfill"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Aruwakkalu",
             "run_name": "Leecom"
         }, {
@@ -630,10 +630,10 @@
             "station_meta": ["curw_ws_colombo07", "Colombo07", 6.90496, 79.86003, 0, "Leecom station, Thurstan College"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Thurstan College",
             "run_name": "Leecom"
         }, {
@@ -642,10 +642,10 @@
             "station_meta": ["curw_ws_maskeliya", "Maskeliya", 6.82955, 80.57551, 0, "Leecom station, Saman Eliya Maha Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Saman Eliya Maha Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -654,10 +654,10 @@
             "station_meta": ["curw_ws_wattala", "Wattala", 6.98678, 79.87102, 0, "Leecom station, Don Bosco College"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Don Bosco College",
             "run_name": "Leecom"
         }, {
@@ -666,10 +666,10 @@
             "station_meta": ["curw_ws_salamulla", "Salamulla", 6.92527, 79.89682, 0, "Leecom station, Henry Olcott maha vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Henry Olcott maha vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -678,10 +678,10 @@
             "station_meta": ["curw_ws_kithulgala", "Kithulgala", 7.00497, 80.40895, 0, "Leecom station, Kalyani Maha Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Kalyani Maha Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -690,10 +690,10 @@
             "station_meta": ["curw_ws_madiwela", "Madiwela", 6.87695, 79.91971, 0, "Leecom station, Sri Rahula Maha Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Sri Rahula Maha Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -702,10 +702,10 @@
             "station_meta": ["curw_ws_kittampahuwa", "Kittampahuwa", 6.95285, 79.89048, 0, "Leecom station, Kotuwila Gamini Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Kotuwila Gamini Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -714,10 +714,10 @@
             "station_meta": ["curw_ws_mahapallegama", "Mahapallegama", 7.16704, 80.26146, 0, "Leecom station, Senanayake Maha Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Senanayake Maha Vidyalaya",
             "run_name": "Leecom"
         }, {
@@ -726,10 +726,10 @@
             "station_meta": ["curw_ws_battaramulla", "Battaramulla", 6.903658, 79.909309, 0, "Leecom station, Diyatha Uyana"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Diyatha Uyana",
             "run_name": "Leecom"
         }, {
@@ -738,10 +738,10 @@
             "station_meta": ["curw_ws_malabe", "Malabe", 6.9039, 79.95733, 0, "Leecom station, Boys School Malabe"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Boys School Malabe",
             "run_name": "Leecom"
         }, {
@@ -750,10 +750,10 @@
             "station_meta": ["curw_ws_urumewalla", "Urumewalla", 7.079360, 80.348666, 0, "Leecom station, Urumewalla General School"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Urumewalla General School",
             "run_name": "Leecom"
         }, {
@@ -774,10 +774,10 @@
             "station_meta": ["curw_ws_anuradhapura", "Anuradhapura", 8.335535, 80.407494, 0, "Leecom station, Anuradhapura Central College"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Anuradhapura Central College",
             "run_name": "Leecom"
         }, {
@@ -786,10 +786,10 @@
             "station_meta": ["curw_ws_naula", "Naula", 7.741352, 80.684432, 0, "Leecom station, Dhammahadaya Vivek Senasuna Naula"],
             "source": "WeatherStation",
             "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-"],
-            "max_values": ["120", "40", "30", "360", "100", "1"],
-            "min_values": ["0", "0", "0", "0", "0", "0"],
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Dhammahadaya Vivek Senasuna Naula",
             "run_name": "Leecom"
         }, {
