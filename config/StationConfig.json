@@ -362,8 +362,8 @@
             "run_name": "A&T Labs"
         }, {
             "stationId": "curw_wl_dehiowita",
-            "name": "Dehiowita",
-            "station_meta": ["curw_wl_dehiowita", "Dehiowita", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
+            "name": "Dehiowita Bridge",
+            "station_meta": ["curw_wl_dehiowita", "Dehiowita Bridge", 6.951925, 80.267600, 0, "Yantai water level guage, A&T communication box"],
             "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
