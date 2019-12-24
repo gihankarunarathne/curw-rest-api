@@ -2,6 +2,7 @@
 .idea
 CONFIG.json
 EmailConfig.json
+UtilEmailAlert.py 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
