@@ -13,22 +13,9 @@ from utils.UtilStation import get_station_hash_map, forward_to_weather_undergrou
 from utils import UtilValidation, UtilTimeseries, Utils
 from config import Constants
 from route import api
-from flask_mail import Mail
+
 
 app = Flask(__name__)
-
-#ROOT_DIR = os.path.dirname(os.path.realpath(__file__))
-#CONFIG = json.loads(open(os.path.join(ROOT_DIR, 'config/EmailConfig.json')).read())
-
-#app.config.update(DEBUG=True, \
-#                  MAIL_SERVER=CONFIG['MAIL_SERVER'], \
-#                  MAIL_PORT=CONFIG['MAIL_PORT'], \
-#                  MAIL_USE_SSL=CONFIG['MAIL_USE_SSL'], \
-#                  MAIL_USERNAME = CONFIG['MAIL_USERNAME'], \
-#                  MAIL_PASSWORD = CONFIG['MAIL_PASSWORD'] )
-
-#mail = Mail(app)
-
 
 try:
     root_dir = os.path.dirname(os.path.realpath(__file__))
