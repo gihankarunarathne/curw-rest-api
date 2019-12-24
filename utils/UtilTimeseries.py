@@ -12,7 +12,7 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['PrecipitationMM'] is not None:
                 new_timeseries.append([t['Time'], t['PrecipitationMM']])
-                UtilAlertEmail.send_email('CUrW Alert', 'Abnormal Value of Precipitation')
+                #UtilAlertEmail.send_email('CUrW Alert', 'Abnormal Value of Precipitation')
         return new_timeseries
 
     def daily_precipitation(my_timeseries):
