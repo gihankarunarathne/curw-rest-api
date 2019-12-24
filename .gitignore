@@ -1,6 +1,7 @@
 # Custom
 .idea
 CONFIG.json
+EmailConfig.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
