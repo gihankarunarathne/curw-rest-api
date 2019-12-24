@@ -14,7 +14,6 @@ from utils import UtilValidation, UtilTimeseries, Utils
 from config import Constants
 from route import api
 
-
 app = Flask(__name__)
 
 try:
