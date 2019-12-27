@@ -1,7 +1,7 @@
 # Custom
 .idea
 CONFIG.json
-EmailConfig.json
+
 #utils/UtilAlertEmail.py
 
 # Byte-compiled / optimized / DLL files
@@ -108,3 +108,6 @@ ENV/
 
 #log files
 log/
+
+#email notifier for error values
+config/EmailConfig.json
