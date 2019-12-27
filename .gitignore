@@ -111,3 +111,4 @@ log/
 
 #email notifier for error values
 config/EmailConfig.json
+utils/email_content.txt
