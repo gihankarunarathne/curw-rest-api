@@ -1,5 +1,5 @@
 from utils import UtilAlertEmail
-def extract_single_variable_timeseries(timeseries, variable, opts=None):
+def extract_single_variable_timeseries(timeseries, variable, stationname, opts=None):
     """
     Then Lines follows the data. This function will extract the given variable timeseries
     """
@@ -12,7 +12,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['PrecipitationMM'] is not None:
                 new_timeseries.append([t['Time'], t['PrecipitationMM']])
-                #UtilAlertEmail.send_email('CUrW Alert', 'Abnormal Value of Precipitation')
+
+            if t['PrecipitationMM'] < 0:
+                UtilAlertEmail.send_email('CUrW Alert', stationname, 'Precipitation', t['PrecipitationMM'], t['Time'])
         return new_timeseries
 
     def daily_precipitation(my_timeseries):
@@ -40,6 +42,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['TemperatureC'] is not None:
                 new_timeseries.append([t['Time'], t['TemperatureC']])
+
+            if t['TemperatureC'] < 0:
+                UtilAlertEmail.send_email('CUrW Alert', stationname, 'Temperature', t['TemperatureC'], t['Time'])
         return new_timeseries
 
     def wind_speed(my_timeseries):
@@ -48,6 +53,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['WindSpeedM/S'] is not None:
                 new_timeseries.append([t['Time'], t['WindSpeedM/S']])
+
+            if t['WindSpeedM/S'] < 0:
+                UtilAlertEmail.send_email('CUrW Alert', stationname, 'WindSpeed', t['WindSpeedM/S'], t['Time'])
         return new_timeseries
 
     def wind_gust(my_timeseries):
@@ -64,6 +72,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['WindDirectionDegrees'] is not None:
                 new_timeseries.append([t['Time'], t['WindDirectionDegrees']])
+
+            if t['WindDirectionDegrees'] < 0:
+                UtilAlertEmail.send_email('CUrW Alert', stationname, 'Wind Direction', t['WindDirectionDegrees'], t['Time'])
         return new_timeseries
 
     def humidity(my_timeseries):
@@ -72,6 +83,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['Humidity'] is not None:
                 new_timeseries.append([t['Time'], t['Humidity']])
+
+            if t['Humidity'] < 0:
+                UtilAlertEmail.send_email('CUrW Alert', stationname, 'Humidity', t['Humidity'], t['Time'])
         return new_timeseries
 
     def solar_radiation(my_timeseries):
@@ -88,6 +102,9 @@ def extract_single_variable_timeseries(timeseries, variable, opts=None):
         for t in my_timeseries:
             if t['pressureBaromMM'] is not None:
                 new_timeseries.append([t['Time'], t['pressureBaromMM']])
+
+        if t['pressureBaromMM'] < 0:
+            UtilAlertEmail.send_email('CUrW Alert', stationname, 'Air Pressure', t['pressureBaromMM'], t['Time'])
         return new_timeseries
 
     def waterlevel(my_timeseries):
