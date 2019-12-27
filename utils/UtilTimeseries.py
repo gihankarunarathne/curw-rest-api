@@ -1,5 +1,5 @@
 from utils import UtilAlertEmail
-def extract_single_variable_timeseries(timeseries, variable, stationname, opts=None):
+def extract_single_variable_timeseries(timeseries, variable, opts=None):
     """
     Then Lines follows the data. This function will extract the given variable timeseries
     """
