@@ -517,18 +517,6 @@
             "description": "Kelaniya",
             "run_name": "Leecom"
         }, {
-            "stationId": "curw_ws_nawala",
-            "name": "Nawala",
-            "station_meta": ["curw_ws_nawala", "Nawala", 6.89916, 79.88443, 0, "Leecom station with their own Rain Gauge"],
-            "source": "WeatherStation",
-            "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
-            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
-            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
-            "description": "Nawala",
-            "run_name": "Leecom"
-        }, {
             "stationId": "curw_ws_dehiowita",
             "name": "Dehiowita",
             "station_meta": ["curw_ws_dehiowita", "Dehiowita", 6.96453, 80.26477, 0, "Leecom station, Dehiowita National College"],
@@ -575,18 +563,6 @@
             "max_values": ["120", "40", "30", "360", "100", "1", "900"],
             "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Attidiya",
-            "run_name": "Leecom"
-        }, {
-            "stationId": "curw_ws_mulleriyawa",
-            "name": "Mulleriyawa",
-            "station_meta": ["curw_ws_mulleriyawa", "Mulleriyawa", 6.92360, 79.94115, 0, "Leecom station with their own Rain Gauge"],
-            "source": "WeatherStation",
-            "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
-            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
-            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
-            "description": "Mulleriyawa",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_wl_mattakkuliya",
