@@ -241,6 +241,19 @@
             "description": "Campbell water level guage, A&T communication",
             "run_name": "A&T Labs"
         }, {
+            "stationId": "curw_wl_ranwala_2",
+            "name": "Ranwala Bridge 2",
+            "station_meta": ["curw_wl_ranwala_2", "Ranwala Bridge 2", 6.970684, 80.165117, 0, "Yantai water level guage, Leecom station"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, LeeCom station",
+            "run_name": "Leecom"
+        },
+        {
             "stationId": "curw_wl_diyatha_uyana",
             "name": "Diyatha Uyana",
             "station_meta": ["curw_wl_diyatha_uyana", "Diyatha Uyana", 6.903649, 79.909019, 0, "Campbell water level guage, A&T communication"],
@@ -588,7 +601,21 @@
             "min_values": ["0"],
             "description": "Yantai water level guage, A&T communication",
             "run_name": "A&T Labs"
-        }, {
+        },
+        {
+            "stationId": "curw_wl_mattakkuliya_2",
+            "name": "Mattakkuliya Bridge 2",
+            "station_meta": ["curw_wl_mattakkuliya_2", "Mattakkuliya Bridge 2", 6.980880, 79.875168, 0, "Yantai water level guage, Leecom station"],
+            "source": "WaterLevelGuage",
+            "type": "Observed",
+            "variables": ["Waterlevel"],
+            "units": ["m"],
+            "max_values": ["30"],
+            "min_values": ["0"],
+            "description": "Yantai water level guage, Leecom station",
+            "run_name": "Leecom"
+        },
+        {
             "stationId": "curw_ws_nugegoda",
             "name": "Nugegoda",
             "station_meta": ["curw_ws_nugegoda", "Nugegoda", 6.872222, 79.888, 0, "Leecom station with their own rain Guage"],
