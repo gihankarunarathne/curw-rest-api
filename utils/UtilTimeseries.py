@@ -10,7 +10,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('Precipitation:: PrecipitationMM')
         new_timeseries = []
         for t in my_timeseries:
-            if t['PrecipitationMM'] is not None:
+            if t['PrecipitationMM'] >= 0:
                 new_timeseries.append([t['Time'], t['PrecipitationMM']])
 
             if t['PrecipitationMM'] < 0:
@@ -40,7 +40,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('Temperature:: TemperatureC')
         new_timeseries = []
         for t in my_timeseries:
-            if t['TemperatureC'] is not None:
+            if t['TemperatureC'] >= 0:
                 new_timeseries.append([t['Time'], t['TemperatureC']])
 
             if t['TemperatureC'] < 0:
@@ -51,7 +51,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('WindSpeed:: WindSpeedM/S')
         new_timeseries = []
         for t in my_timeseries:
-            if t['WindSpeedM/S'] is not None:
+            if t['WindSpeedM/S'] >= 0:
                 new_timeseries.append([t['Time'], t['WindSpeedM/S']])
 
             if t['WindSpeedM/S'] < 0:
@@ -70,7 +70,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('WindDirection:: WindDirectionDegrees')
         new_timeseries = []
         for t in my_timeseries:
-            if t['WindDirectionDegrees'] is not None:
+            if t['WindDirectionDegrees'] >= 0:
                 new_timeseries.append([t['Time'], t['WindDirectionDegrees']])
 
             if t['WindDirectionDegrees'] < 0:
@@ -81,7 +81,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('Humidity:: Humidity')
         new_timeseries = []
         for t in my_timeseries:
-            if t['Humidity'] is not None:
+            if t['Humidity'] >= 0:
                 new_timeseries.append([t['Time'], t['Humidity']])
 
             if t['Humidity'] < 0:
@@ -100,7 +100,7 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         print('Pressure:: pressureBaromMM')
         new_timeseries = []
         for t in my_timeseries:
-            if t['pressureBaromMM'] is not None:
+            if t['pressureBaromMM'] >= 0:
                 new_timeseries.append([t['Time'], t['pressureBaromMM']])
 
             if t['pressureBaromMM'] < 0:
