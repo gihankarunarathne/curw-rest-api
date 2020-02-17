@@ -12,7 +12,6 @@ def extract_single_variable_timeseries(timeseries, variable, stationname, opts=N
         for t in my_timeseries:
             if t['PrecipitationMM'] >= 0:
                 new_timeseries.append([t['Time'], t['PrecipitationMM']])
-                UtilAlertEmail.send_email('CUrW Alert', stationname, 'Precipitation', t['PrecipitationMM'], t['Time'])
 
             if t['PrecipitationMM'] < 0:
                 UtilAlertEmail.send_email('CUrW Alert', stationname, 'Precipitation', t['PrecipitationMM'], t['Time'])
