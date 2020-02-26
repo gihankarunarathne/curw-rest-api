@@ -2,8 +2,8 @@
     "stations" : [
         {
             "stationId": "curw_orugodawatta",
-            "name": "Orugodawatta",
-            "station_meta": ["curw_orugodawatta", "Orugodawatta", 6.943741, 79.87887, 0, "SLLRDC Colombo North Office"],
+            "name": "Orugodawatta Study",
+            "station_meta": ["curw_orugodawatta", "Orugodawatta Study", 6.943741, 79.87887, 0, "SLLRDC Colombo North Office"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindGust", "WindDirection", "Humidity", "SolarRadiation"],
