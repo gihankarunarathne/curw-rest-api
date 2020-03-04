@@ -966,7 +966,7 @@
         }, {
             "stationId": "curw_ws_orugodawatta",
             "name": "Orugodawatta",
-            "station_meta": ["curw_ws_orugodawatta", "Orugodawatta", 6.901326, 79.882832, 0, "Leecom station, SLLRDC sub office"],
+            "station_meta": ["curw_ws_orugodawatta", "Orugodawatta", 6.943699, 79.878862, 0, "Leecom station, SLLRDC sub office"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
