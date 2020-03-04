@@ -964,18 +964,6 @@
             "description": "Leecom station, RTC Office Kirimandala mawatha",
             "run_name": "Leecom"
         }, {
-            "stationId": "curw_ws_orugodawatta",
-            "name": "Orugodawatta",
-            "station_meta": ["curw_ws_orugodawatta", "Orugodawatta", 6.943742, 79.878862, 0, "Leecom station, SLLRDC sub office"],
-            "source": "WeatherStation",
-            "type": "Observed",
-            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
-            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
-            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
-            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
-            "description": "Leecom station, SLLRDC sub office",
-            "run_name": "Leecom"
-        }, {
             "stationId": "curw_ws_kandy",
             "name": "Kandy",
             "station_meta": ["curw_ws_kandy", "Kandy", 7.289423, 80.649770, 0, "Leecom station, Dharmaraja College"],
@@ -998,6 +986,18 @@
             "max_values": ["120", "40", "30", "360", "100", "1", "900"],
             "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, Dickoya Sinhala School",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_orugodawatta",
+            "name": "Orugodawatta",
+            "station_meta": ["curw_ws_orugodawatta", "Orugodawatta", 6.943742, 79.878862, 0, "Leecom station, SLLRDC sub office"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
+            "description": "Leecom station, SLLRDC sub office",
             "run_name": "Leecom"
         }
     ]
