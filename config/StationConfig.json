@@ -999,6 +999,30 @@
             "min_values": ["0", "0", "0", "0", "0", "0", "600"],
             "description": "Leecom station, SLLRDC sub office",
             "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_mawaramandiya",
+            "name": "Mawaramandiya",
+            "station_meta": ["curw_ws_mawaramandiya", "Mawaramandiya", 7.0413337, 80.2559749, 0, "Leecom station, SKK Suriarachchi Maha Vidyalaya"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
+            "description": "Leecom station, SKK Suriarachchi Maha Vidyalaya",
+            "run_name": "Leecom"
+        }, {
+            "stationId": "curw_ws_ruwanwella",
+            "name": "Ruwanwella",
+            "station_meta": ["curw_ws_ruwanwella", "Ruwanwella", 6.997939, 79.986863, 0, "Leecom station, Rajasinghe National School"],
+            "source": "WeatherStation",
+            "type": "Observed",
+            "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
+            "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
+            "max_values": ["120", "40", "30", "360", "100", "1", "900"],
+            "min_values": ["0", "0", "0", "0", "0", "0", "600"],
+            "description": "Leecom station, Rajasinghe National School",
+            "run_name": "Leecom"
         }
     ]
 }
