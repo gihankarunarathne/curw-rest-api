@@ -1002,7 +1002,7 @@
         }, {
             "stationId": "curw_ws_mawaramandiya",
             "name": "Mawaramandiya",
-            "station_meta": ["curw_ws_mawaramandiya", "Mawaramandiya", 7.0413337, 80.2559749, 0, "Leecom station, SKK Suriarachchi Maha Vidyalaya"],
+            "station_meta": ["curw_ws_mawaramandiya", "Mawaramandiya", 6.997939, 79.986863, 0, "Leecom station, SKK Suriarachchi Maha Vidyalaya"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
@@ -1014,7 +1014,7 @@
         }, {
             "stationId": "curw_ws_ruwanwella",
             "name": "Ruwanwella",
-            "station_meta": ["curw_ws_ruwanwella", "Ruwanwella", 6.997939, 79.986863, 0, "Leecom station, Rajasinghe National School"],
+            "station_meta": ["curw_ws_ruwanwella", "Ruwanwella", 7.041334, 80.255975, 0, "Leecom station, Rajasinghe National School"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
