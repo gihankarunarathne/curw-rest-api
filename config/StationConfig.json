@@ -1026,15 +1026,15 @@
         }, {
             "stationId": "curw_wl_ambatale_study",
             "name": "Ambatale Study",
-            "station_meta": ["curw_wl_ambatale_study", "Ambatale Study", 6.934660, 79.948027, 0, "AnT station, Yantai water level guage"],
-            "source": "WeatherStation",
+            "station_meta": ["curw_wl_ambatale_study", "Ambatale Study", 6.934660, 79.948027, 0, "Yantai water level guage, A&T communication box"],
+            "source": "WaterLevelGuage",
             "type": "Observed",
             "variables": ["Waterlevel"],
             "units": ["m"],
             "max_values": ["30"],
             "min_values": ["0"],
-            "description": "AnT station, Yantai water level guage",
-            "run_name": "Leecom"
+            "description": "Yantai water level guage, A&T communication box",
+            "run_name": "A&T Labs"
         }
     ]
 }
