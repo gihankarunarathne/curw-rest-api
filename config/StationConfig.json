@@ -1027,7 +1027,7 @@
             "stationId": "curw_wl_ambatale_study",
             "name": "Ambatale Study",
             "station_meta": ["curw_wl_ambatale_study", "Ambatale Study", 6.934660, 79.948027, 0, "AnT station, Yantai water level guage"],
-            "source": "WaterLevelGuage",
+            "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Waterlevel"],
             "units": ["m"],
