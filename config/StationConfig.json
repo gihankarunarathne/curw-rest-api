@@ -1048,16 +1048,16 @@
             "description": "Leecom station, Ruhuna University",
             "run_name": "Leecom"
         }, {
-            "stationId": "curw_ws_pelwatte",
-            "name": "Pelwatte",
-            "station_meta": ["curw_ws_pelwatte", "Pelwatte", 6.720873, 81.206913, 0, "Leecom station, Pelwatte Sugar Cane factory premises"],
+            "stationId": "curw_ws_buttala",
+            "name": "Buttala",
+            "station_meta": ["curw_ws_buttala", "Buttala", 6.720873, 81.206913, 0, "Leecom station, Pelwatte Sugar Cane factory premises, Buttala"],
             "source": "WeatherStation",
             "type": "Observed",
             "variables": ["Precipitation", "Temperature", "WindSpeed", "WindDirection", "Humidity", "Tick", "Pressure"],
             "units": ["mm", "oC", "m/s", "degrees", "%", "-", "mmHg"],
             "max_values": ["120", "40", "30", "360", "100", "1", "900"],
             "min_values": ["0", "0", "0", "0", "0", "0", "600"],
-            "description": "Leecom station, Pelwatte Sugar Cane factory premises",
+            "description": "Leecom station, Pelwatte Sugar Cane factory premises, Buttala",
             "run_name": "Leecom"
         }, {
             "stationId": "curw_ws_passara",
