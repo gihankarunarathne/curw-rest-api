@@ -240,18 +240,6 @@
             "min_values": ["0"],
             "description": "Campbell water level guage, A&T communication",
             "run_name": "A&T Labs"
-        }, {
-            "stationId": "curw_wl_ranwala_2",
-            "name": "Ranwala Bridge 2",
-            "station_meta": ["curw_wl_ranwala_2", "Ranwala Bridge 2", 6.970684, 80.165117, 0, "Yantai water level guage, Leecom station"],
-            "source": "WaterLevelGuage",
-            "type": "Observed",
-            "variables": ["Waterlevel"],
-            "units": ["m"],
-            "max_values": ["30"],
-            "min_values": ["0"],
-            "description": "Yantai water level guage, LeeCom station",
-            "run_name": "Leecom"
         },
         {
             "stationId": "curw_wl_diyatha_uyana",
