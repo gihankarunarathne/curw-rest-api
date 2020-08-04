@@ -43,6 +43,11 @@ try:
     if 'MYSQL_PASSWORD' in config:
         MYSQL_PASSWORD = config['MYSQL_PASSWORD']
 
+    if 'addStation_user' in config:
+        addStationUser = config['addStation_user']
+    if 'addStation_pssword' in config:
+        addStationPassword = config['addStation_pssword']
+
     db_adapter = MySQLAdapter(host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD, db=MYSQL_DB)
     # Get Station Data for Bulk Data Format
     STATION_CONFIG = pjoin(root_dir, 'config/StationConfig.json')
@@ -69,6 +74,23 @@ def validate_bulk_request():
     content = request.get_json(silent=True)
     if not isinstance(content, object) and not content and 'ID' in content:
         raise Exception("Invalid request. Abort ...")
+    return content
+
+def validate_addstation_request():
+    content = request.get_json(silent=True)
+    user = content['user']
+    passwd = content['PASSWORD']
+
+    if not isinstance(content, object) and not content and 'user' in content:
+        raise Exception("Invalid request. Abort ...")
+
+    if not (addStationUser == user):
+        raise Exception("Unauthorized User! Abort ...")
+
+    if addStationUser == user:
+        if not (addStationPassword == passwd ):
+            raise Exception("Invalid Password! Abort ...")
+
     return content
 
 
@@ -447,6 +469,30 @@ def save_timeseries(adapter, station, timeseries, logger):
 
         row_count = adapter.insert_timeseries(event_id, extracted_timeseries, force_insert)
         logger.debug('%s rows inserted.\n' % row_count)
+
+
+#####################################################################
+#                    ADD  WeatherStation                      #
+#####################################################################
+@app.route('/weatherstation/addweatherstation', methods=['POST'])
+def add_weather_station():
+    try:
+        content = validate_addstation_request()
+        logger_bulk.info("%s", json.dumps(content))
+        # logger_bulk.info("Headers:: %s", json.dumps(request.headers))
+    except Exception as json_error:
+        logger_bulk.error(json_error)
+        return "Bad Request", 400
+
+    station = stations_map.get(content.get('ID'), None)
+    if station is not None:
+        data = content['data']
+        if len(data) < 1:
+            logger_bulk.error("Request does not have data")
+            return "Request does not have any data", 404
+
+        else:
+            return "success"
 
 
 @app.route('/')
