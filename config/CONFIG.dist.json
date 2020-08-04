@@ -2,5 +2,7 @@
     "MYSQL_HOST"        : "localhost",
     "MYSQL_USER"        : "curw",
     "MYSQL_PASSWORD"    : "curw@123",
-    "MYSQL_DB"          : "curw"
+    "MYSQL_DB"          : "curw",
+    "addStation_user"   : "shasini",
+    "addStation_pssword": "cfcwm07_s"
 }
