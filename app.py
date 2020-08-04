@@ -486,7 +486,7 @@ def add_weather_station():
         logger_bulk.error(json_error)
         return "Bad Request", 400
 
-    station = stations_map.get(content.get('ID'), None)
+    station = stations_map.get(content.get('action'), None)
     if station is not None:
         data = content['data']
         if len(data) < 1:
