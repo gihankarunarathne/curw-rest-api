@@ -73,8 +73,8 @@ def validate_bulk_request():
     return content
 
 def validate_addstation_request():
-    config_add = json.loads(open(pjoin(root_dir, 'config/CONFIG.json')).read())
-    
+    config_add = json.loads(open(pjoin(root_dir, 'config/CONFIG.dist.json')).read())
+
     addStationUser = config_add['addStation_user']
     addStationPassword = config_add['addStation_pssword']
 
