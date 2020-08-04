@@ -43,10 +43,6 @@ try:
     if 'MYSQL_PASSWORD' in config:
         MYSQL_PASSWORD = config['MYSQL_PASSWORD']
 
-    if 'addStation_user' in config:
-        addStationUser = config['addStation_user']
-    if 'addStation_pssword' in config:
-        addStationPassword = config['addStation_pssword']
 
     db_adapter = MySQLAdapter(host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD, db=MYSQL_DB)
     # Get Station Data for Bulk Data Format
@@ -77,6 +73,12 @@ def validate_bulk_request():
     return content
 
 def validate_addstation_request():
+    config_add = json.loads(open(pjoin(root_dir, 'config/CONFIG.json')).read())
+    
+    addStationUser = config_add['addStation_user']
+    addStationPassword = config_add['addStation_pssword']
+
+
     content = request.get_json(silent=True)
     user = content['user']
     passwd = content['PASSWORD']
