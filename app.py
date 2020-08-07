@@ -499,24 +499,6 @@ def add_weather_station():
 
             elif action_type == 'curw_all':
 
-                for station_data in data:
-                    curw_station_metaseries = copy.deepcopy(curw_station_meta_struct)
-                    curw_station_metaseries['stationId'] = station_data['stationId']
-                    curw_station_metaseries['name'] = station_data['name']
-                    curw_station_metaseries['station_meta'] = station_data['station_meta']
-                    curw_station_metaseries['source'] = station_data['source']
-                    curw_station_metaseries['type'] = station_data['type']
-                    curw_station_metaseries['variables'] = station_data['variables']
-                    curw_station_metaseries['units'] = station_data['units']
-                    curw_station_metaseries['max_values'] = station_data['max_values']
-                    curw_station_metaseries['min_values'] = station_data['min_values']
-                    curw_station_metaseries['description'] = station_data['description']
-                    curw_station_metaseries['run_name'] = station_data['run_name']
-
-                logger_bulk.error(curw_station_metaseries)
-
-
-
 
                 return "Success", 200
 
