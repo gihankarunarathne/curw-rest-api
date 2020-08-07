@@ -66,7 +66,10 @@ def add_station_curw_iot(data, logger_bulk):
     stations = CONFIG['stations']
 
     for station in stations:
-        if station['stationId'] == data['stationId']:
+        station_id = station['stationId']
+
+        logger_bulk.error("station name" % station_id)
+        if station_id == data['stationId']:
             logger_bulk.error("%s station already exist" % data['stationId'])
 
         else:
