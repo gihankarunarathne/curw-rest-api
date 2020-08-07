@@ -65,9 +65,10 @@ def add_station_curw_iot(data, logger_bulk):
 
     stations = CONFIG['stations']
 
-    if not any(station['stationId'] == data['stationId'] for station in stations):
+    for station_data in data:
 
-        for station_data in data:
+        if not any(station['stationId'] == station_data['stationId'] for station in stations):
+
             curw_station_metaseries = copy.deepcopy(curw_station_meta_struct)
             curw_station_metaseries['stationId'] = station_data['stationId']
             curw_station_metaseries['name'] = station_data['name']
@@ -81,10 +82,10 @@ def add_station_curw_iot(data, logger_bulk):
             curw_station_metaseries['description'] = station_data['description']
             curw_station_metaseries['run_name'] = station_data['run_name']
 
-        with open("../config/StationConfig.json", "w") as outfile:
-            outfile.write(curw_station_metaseries)
-    else:
-        logger_bulk.error("%s station already exist" % data['stationId'])
+            with open("../config/StationConfig.json", "w") as outfile:
+                outfile.write(curw_station_metaseries)
+        else:
+            logger_bulk.error("%s station already exist" % data['stationId'])
 
 
 
