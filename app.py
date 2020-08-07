@@ -486,7 +486,7 @@ def add_weather_station():
         logger_bulk.error(json_error)
         return "Bad Request", 400
 
-    action_type = content['action']
+    action_type = content.get('action')
 
     if action_type is not None:
         data = content['data']
