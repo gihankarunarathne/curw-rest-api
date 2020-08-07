@@ -61,13 +61,15 @@ def add_station_curw_iot(data, logger_bulk):
     logger_bulk.error(root_dir)
 
     CONFIG = json.loads(open(pjoin(root_dir, '../config/StationConfig.json')).read())
-    logger_bulk.error(data['stationId'])
 
     stations = CONFIG['stations']
 
     for station_data in data:
+        logger_bulk.error(station_data)
+        logger_bulk.error(station_data['stationId'])
 
         if not any(station['stationId'] == station_data['stationId'] for station in stations):
+            #logger_bulk.error(data['stationId'])
 
             curw_station_metaseries = copy.deepcopy(curw_station_meta_struct)
             curw_station_metaseries['stationId'] = station_data['stationId']
