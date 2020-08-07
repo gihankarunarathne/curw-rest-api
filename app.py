@@ -9,7 +9,7 @@ from os.path import join as pjoin
 from datetime import datetime
 from flask import Flask, request
 from curwmysqladapter import MySQLAdapter, Station
-from utils.UtilStation import get_station_hash_map, forward_to_weather_underground, forward_to_dialog_iot
+from utils.UtilStation import get_station_hash_map, forward_to_weather_underground, forward_to_dialog_iot, add_station_curw_iot
 from utils import UtilValidation, UtilTimeseries, Utils
 from config import Constants
 from route import api
@@ -476,35 +476,6 @@ def save_timeseries(adapter, station, timeseries, logger):
 #####################################################################
 #                    ADD  WeatherStation                      #
 #####################################################################
-curw_station_meta_struct = {
-    'stationId': '',
-    'name': '',
-    'station_meta': [],
-    'source': '',
-    'type': '',
-    'variables': [],
-    'units': [],
-    'max_values': [],
-    'min_values': [],
-    'description': '',
-    'run_name': '',
-}
-curw_obs_station_meta_struct = {
-    'stationId': '',
-    'name': '',
-    'station_meta': [],
-    'source': '',
-    'type': '',
-    'variables': [],
-    'units': [],
-    'unit_type': [],
-    'max_values': [],
-    'min_values': [],
-    'description': '',
-    'run_name': '',
-}
-
-
 @app.route('/weatherstation/addweatherstation', methods=['POST'])
 def add_weather_station():
     try:
@@ -519,14 +490,10 @@ def add_weather_station():
 
     if action_type is not None:
         data = content['data']
-        logger_bulk.error("action type %s" % action_type)
-        logger_bulk.error("data %s" % data)
-        logger_bulk.error("length %s" % len(data))
 
         if data is not None:
-            logger_bulk.error("Add-Station Request does not have any data")
-
             if action_type == 'curw_IoTOnly':
+                curw_iot = add_station_curw_iot(data, logger_bulk)
 
                 return "Success", 200
 
@@ -547,6 +514,10 @@ def add_weather_station():
                     curw_station_metaseries['run_name'] = station_data['run_name']
 
                 logger_bulk.error(curw_station_metaseries)
+
+
+
+
                 return "Success", 200
 
             else:
