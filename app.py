@@ -492,12 +492,14 @@ def add_weather_station():
         data = content['data']
         logger_bulk.error("action type %s" % action_type)
         logger_bulk.error("data %s" % data)
+        logger_bulk.error("length %s" % len(data))
         if len(data) < 1:
             logger_bulk.error("Add-Station Request does not have any data")
+
             if action_type == 'curw_IoTOnly':
                 return data, 200
 
-            if action_type == 'curw_all':
+            elif action_type == 'curw_all':
                 return data, 200
 
             else:
