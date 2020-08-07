@@ -61,7 +61,7 @@ def add_station_curw_iot(data, logger_bulk):
     logger_bulk.error(root_dir)
 
     CONFIG = json.loads(open(pjoin(root_dir, '../config/StationConfig.json')).read())
-    logger_bulk.error(CONFIG)
+    #logger_bulk.error(CONFIG)
 
     stations = CONFIG['stations']
 
@@ -86,7 +86,7 @@ def add_station_curw_iot(data, logger_bulk):
                 curw_station_metaseries['description'] = station_data['description']
                 curw_station_metaseries['run_name'] = station_data['run_name']
 
-            with open("o../config/StationConfig.json", "w") as outfile:
+            with open("../config/StationConfig.json", "w") as outfile:
                 outfile.write(curw_station_metaseries)
 
 
