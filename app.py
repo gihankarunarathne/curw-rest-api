@@ -486,16 +486,22 @@ def add_weather_station():
         logger_bulk.error(json_error)
         return "Bad Request", 400
 
-    station = stations_map.get(content.get('action'), None)
-    if station is not None:
+    action_type = content['action']
+
+    if action_type is not None:
         data = content['data']
         if len(data) < 1:
-            logger_bulk.error("Request does not have data")
-            return "Request does not have any data", 404
+            logger_bulk.error("Add-Station Request does not have any data")
+            if action_type == 'curw_IoTOnly':
+                return data, 200
 
-        else:
-            return "success"
+            if action_type == 'curw_all':
+                return data, 200
 
+            else:
+                return "Unknown Action type, Failure", 404
+    else:
+        return "Bad Request, No action type stated", 400
 
 @app.route('/')
 def index():
