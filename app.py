@@ -476,6 +476,35 @@ def save_timeseries(adapter, station, timeseries, logger):
 #####################################################################
 #                    ADD  WeatherStation                      #
 #####################################################################
+curw_station_meta_struct = {
+    'stationId': '',
+    'name': '',
+    'station_meta': [],
+    'source': '',
+    'type': '',
+    'variables': [],
+    'units': [],
+    'max_values': [],
+    'min_values': [],
+    'description': '',
+    'run_name': '',
+}
+curw_obs_station_meta_struct = {
+    'stationId': '',
+    'name': '',
+    'station_meta': [],
+    'source': '',
+    'type': '',
+    'variables': [],
+    'units': [],
+    'unit_type': [],
+    'max_values': [],
+    'min_values': [],
+    'description': '',
+    'run_name': '',
+}
+
+
 @app.route('/weatherstation/addweatherstation', methods=['POST'])
 def add_weather_station():
     try:
@@ -498,10 +527,27 @@ def add_weather_station():
             logger_bulk.error("Add-Station Request does not have any data")
 
             if action_type == 'curw_IoTOnly':
-                return "success", 200
+
+                return "Success", 200
 
             elif action_type == 'curw_all':
-                return data, 200
+
+                for station_data in data:
+                    curw_station_metaseries = copy.deepcopy(curw_station_meta_struct)
+                    curw_station_metaseries['stationId'] = station_data['stationId']
+                    curw_station_metaseries['name'] = station_data['name']
+                    curw_station_metaseries['station_meta'] = station_data['station_meta']
+                    curw_station_metaseries['source'] = station_data['source']
+                    curw_station_metaseries['type'] = station_data['type']
+                    curw_station_metaseries['variables'] = station_data['variables']
+                    curw_station_metaseries['units'] = station_data['units']
+                    curw_station_metaseries['max_values'] = station_data['max_values']
+                    curw_station_metaseries['min_values'] = station_data['min_values']
+                    curw_station_metaseries['description'] = station_data['description']
+                    curw_station_metaseries['run_name'] = station_data['run_name']
+
+                logger_bulk.error(curw_station_metaseries)
+                return "Success", 200
 
             else:
                 return "Unknown Action type, Failure", 404
