@@ -55,8 +55,13 @@ def forward_to_dialog_iot(data, logger):
 
 def add_station_curw_iot(data, logger_bulk):
     global curw_station_metaseries
+    logger_bulk.error("dataaa %s" %data)
+
     root_dir = os.path.dirname(os.path.realpath(__file__))
+    logger_bulk.error(root_dir)
+
     CONFIG = json.loads(open(pjoin(root_dir, '../config/StationConfig.json')).read())
+    logger_bulk.error(CONFIG)
 
     stations = CONFIG['stations']
 
