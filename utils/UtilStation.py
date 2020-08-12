@@ -169,7 +169,7 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
                     logger_bulk.error(station_data['stationId'])
                     break
             else:
-                curwiot_station_metaseries = get_station_metaseries(station_type, db_type, station_data)
+                curwiot_station_metaseries = get_station_metaseries(station_type, db_type, station_data, logger_bulk)
                 logger_bulk.error("EEEEEEEE")
                 logger_bulk.error(curwiot_station_metaseries)
                 CONFIG_curwiot_station['stations'].insert(-1, curwiot_station_metaseries)
