@@ -178,6 +178,8 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
                 logger_bulk.error("FFFFFFFFF")
                 logger_bulk.error(curwiot_updated)
                 with open("../config/StationConfig.json", "w") as outfile:
+                    outfile.write("GGGGGGGGGGGGG")
+                    logger_bulk.error(outfile.write(curwiot_updated))
                     outfile.write(curwiot_updated)
 
     if action_type == 'remove_station':
