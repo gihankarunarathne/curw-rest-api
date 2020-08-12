@@ -178,7 +178,8 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
                 logger_bulk.error("FFFFFFFFF")
                 logger_bulk.error(curwiot_updated)
                 logger_bulk.error(root_dir)
-                with open("../config/StationConfig.json", "w") as outfile:
+
+                with open(pjoin(root_dir, '../config/StationConfig.json'), "w") as outfile:
                     outfile.write("GGGGGGGGGGGGG")
                     #logger_bulk.error(outfile.write(curwiot_updated))
                     outfile.write(curwiot_updated)
