@@ -493,13 +493,18 @@ def add_weather_station():
         data = content['data']
         action_type = content.get('action type')
         station_type = content.get('station type')
+        db_type = content.get('db type')
 
-        logger_bulk.error(action_type, station_type, data)
+        logger_bulk.error(action_type)
+        logger_bulk.error(station_type)
+        logger_bulk.error(data)
 
         if data is not None:
             if db_type == 'curw_iot':
                 logger_bulk.error("**************")
-                logger_bulk.error(action_type, station_type, data)
+                logger_bulk.error(action_type)
+                logger_bulk.error(station_type)
+                logger_bulk.error(data)
 
                 #add curw station only to the curw_iot
                 curw_iot = add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk)
