@@ -149,7 +149,7 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
     logger_bulk.error(action_type)
     logger_bulk.error(db_type)
     logger_bulk.error(station_type)
-    logger_bulk.error(data)
+    #logger_bulk.error(data)
     stations = CONFIG_curwiot_station['stations']
     data_curwiot = data
 
@@ -157,16 +157,27 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
     if action_type == 'add_station':
 
         for station_data in data_curwiot:
+            logger_bulk.error("CCCCCCC")
+            logger_bulk.error(station_data)
             for station in stations:
+                logger_bulk.error("CCCCCCC")
+                logger_bulk.error(station)
                 #check if the station already exist in the config file, if not add to the config
                 if station['stationId'] == station_data['stationId']:
+                    logger_bulk.error("DDDDDD")
+                    logger_bulk.error(station['stationId'])
+                    logger_bulk.error(station_data['stationId'])
                     break
             else:
                 curwiot_station_metaseries = get_station_metaseries(station_type, db_type, station_data)
+                logger_bulk.error("EEEEEEEE")
+                logger_bulk.error(curwiot_station_metaseries)
                 CONFIG_curwiot_station['stations'].insert(-1, curwiot_station_metaseries)
 
                 curwiot_updated = json.dumps(CONFIG_curwiot_station, sort_keys=True, indent=4)
-                with open("StationConfig.json", "w") as outfile:
+                logger_bulk.error("FFFFFFFFF")
+                logger_bulk.error(curwiot_updated)
+                with open("../config/StationConfig.json", "w") as outfile:
                     outfile.write(curwiot_updated)
 
     if action_type == 'remove_station':
