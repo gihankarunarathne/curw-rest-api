@@ -145,8 +145,8 @@ def get_station_metaseries(station_type, db_type, station_data, logger_bulk):
 
 
 def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
-
-
+    logger_bulk.error("AAAAAAAAAAA")
+    logger_bulk.error(db_type, action_type, station_type, data)
     stations = CONFIG_curwiot_station['stations']
     data_curwiot = data
 

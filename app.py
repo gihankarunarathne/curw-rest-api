@@ -487,11 +487,14 @@ def add_weather_station():
         return "Bad Request", 400
 
     db_type = content.get('db type')
-    action_type = content.get('action type')
-    station_type = content.get('station type')
+
 
     if db_type is not None:
         data = content['data']
+        action_type = content.get('action type')
+        station_type = content.get('station type')
+
+        logger_bulk.error(action_type, station_type, data)
 
         if data is not None:
             if db_type == 'curw_iot':
