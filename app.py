@@ -9,7 +9,7 @@ from os.path import join as pjoin
 from datetime import datetime
 from flask import Flask, request
 from curwmysqladapter import MySQLAdapter, Station
-from utils.UtilStation import get_station_hash_map, forward_to_weather_underground, forward_to_dialog_iot, add_station_curw_iot
+from utils.UtilStation import get_station_hash_map, forward_to_weather_underground, forward_to_dialog_iot, add_station_curw_iot, add_station_to_all
 from utils import UtilValidation, UtilTimeseries, Utils
 from config import Constants
 from route import api
@@ -474,9 +474,9 @@ def save_timeseries(adapter, station, timeseries, logger):
 
 
 #####################################################################
-#                    ADD  WeatherStation                      #
+#                    Edit Station                      #
 #####################################################################
-@app.route('/weatherstation/addweatherstation', methods=['POST'])
+@app.route('/weatherstation/editstation', methods=['POST'])
 def add_weather_station():
     try:
         content = validate_addstation_request()
@@ -486,18 +486,24 @@ def add_weather_station():
         logger_bulk.error(json_error)
         return "Bad Request", 400
 
-    action_type = content.get('action')
+    db_type = content.get('db type')
+    action_type = content.get('action type')
+    station_type = content.get('station type')
 
-    if action_type is not None:
+    if db_type is not None:
         data = content['data']
 
         if data is not None:
-            if action_type == 'curw_IoTOnly':
-                curw_iot = add_station_curw_iot(data, logger_bulk)
+            if db_type == 'curw_IoTOnly':
+
+                #add curw station only to the curw_iot
+                curw_iot = add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk)
 
                 return "Success", 200
 
-            elif action_type == 'curw_all':
+            elif db_type == 'curw_all':
+                #first add the station to curw_iot and then to other two
+                curw_iot = add_station_to_all(action_type, station_type, data, logger_bulk)
 
 
                 return "Success", 200
