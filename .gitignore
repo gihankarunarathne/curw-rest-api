@@ -108,6 +108,8 @@ ENV/
 
 #log files
 log/
-
+#station config file and config.dist.json
+config/StationConfig.json
+config/CONFIG.dist.json
 .gitignore
 
