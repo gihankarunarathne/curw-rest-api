@@ -474,7 +474,7 @@ def save_timeseries(adapter, station, timeseries, logger):
 
 
 #####################################################################
-#                    Edit Station                      #
+#                    Edit Station                                   #
 #####################################################################
 @app.route('/weatherstation/editstation', methods=['POST'])
 def add_weather_station():
@@ -507,16 +507,25 @@ def add_weather_station():
                 logger_bulk.error(data)
 
                 #add curw station only to the curw_iot
-                curw_iot = add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk)
+                try:
+                    add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk)
+                    
+                except Exception as json_error:
+                    logger_bulk.error(json_error)
+                    return "The changes did not apply to curw_iot platform", 400
 
-                return "Success", 200
+
 
             elif db_type == 'curw_all':
                 #first add the station to curw_iot and then to other two
-                curw_iot = add_station_to_all(action_type, station_type, data, logger_bulk)
+                try:
+                    add_station_to_all(action_type, station_type, data, logger_bulk)
+                    return "Success", 200
+                except Exception as json_error:
+                    logger_bulk.error(json_error)
+                    return "The changes did not apply to curw_iot platform", 400
 
 
-                return "Success", 200
 
             else:
                 return "Unknown Action type, Failure", 404
