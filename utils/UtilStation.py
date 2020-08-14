@@ -193,7 +193,6 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
             with open(pjoin(root_dir, '../config/StationConfig.json'), "w") as outfile:
                 outfile.write(curwiot_updated)
 
-
 def add_station_to_all(action_type, station_type, data, logger_bulk):
     backupfile = 'CONFIG.backup_%s.json' % date
 
@@ -207,7 +206,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
 
     #First add station to the IoT config
 
-    add_station_curw_iot(db_type1, action_type, station_type)
+    add_station_curw_iot(db_type1, action_type, station_type,  data, logger_bulk)
 
     #Refer to the action type, if the action type not listed prompt an error
 
