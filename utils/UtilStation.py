@@ -231,9 +231,10 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
 
             curw_updated = json.dumps(CONFIG_curw_station, sort_keys=True, indent=4)
 
-            with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "w") as outfile:
-                outfile.write(curw_updated)
-
+            with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "w") as sta_configdist:
+                sta_configdist.write(curw_updated)
+                with open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile'), "w+") as sta_config:
+                    sta_config.write(sta_configdist.read())
 
         #Adding the station to the curwobs config
         for station_data_curwobs in data_curwobs:
@@ -242,6 +243,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
                 if station_curwobs['stationId'] == station_data_curwobs['stationId']:
                     break
             else:
+
                 # write a backupfile before dumping to the StationConfig.json
                 with open(pjoin(root_dir, '../../Data-Pusher-Obs/CONFIG.dist.json'), "r") as sta_config, \
                         open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile'),
