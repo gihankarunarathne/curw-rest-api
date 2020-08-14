@@ -233,7 +233,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
 
             with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "w") as sta_configdist:
                 sta_configdist.write(curw_updated)
-                with open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile'), "w+") as sta_config:
+                with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.json'), "w") as sta_config:
                     sta_config.write(sta_configdist.read())
 
         #Adding the station to the curwobs config
