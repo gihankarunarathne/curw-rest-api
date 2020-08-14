@@ -217,10 +217,11 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
 
         for station_data_curw in data_curw:
             for station_curw in stations_curw:
-                #Check if the station already exist in the config file, if not add to the config
+                #Check if station already exist in the config file, if not add to the config
                 if station_curw['stationId'] == station_data_curw['stationId']:
                     break
             else:
+                logger_bulk.error(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'))
                 # write a backupfile before dumping to the StationConfig.json
                 with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "r") as sta_config, \
                         open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile'), "w+") as sta_backupconfig:
