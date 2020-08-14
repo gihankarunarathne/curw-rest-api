@@ -3,6 +3,11 @@ import copy
 import json
 import os
 from os.path import join as pjoin
+from datetime import datetime
+
+now_date = datetime.now()
+COMMON_DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
+date = now_date.strftime(COMMON_DATE_FORMAT)
 
 root_dir = os.path.dirname(os.path.realpath(__file__))
 
@@ -146,6 +151,10 @@ def get_station_metaseries(station_type, db_type, station_data, logger_bulk):
 
 def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
 
+    #backupfile name
+
+
+
     #logger_bulk.error(data)
     stations = CONFIG_curwiot_station['stations']
     data_curwiot = data
@@ -184,11 +193,9 @@ def add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk):
             with open(pjoin(root_dir, '../config/StationConfig.json'), "w") as outfile:
                 outfile.write(curwiot_updated)
 
-    else:
-        logger_bulk.error("Requested action type - %s does not exit" % action_type)
-
 
 def add_station_to_all(action_type, station_type, data, logger_bulk):
+    backupfile = 'CONFIG.backup_%s.json' % date
 
     db_type1 = 'curw_iot'
     db_type2 = 'curw_obs'
@@ -214,6 +221,11 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
                 if station_curw['stationId'] == station_data_curw['stationId']:
                     break
             else:
+                # write a backupfile before dumping to the StationConfig.json
+                with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "r") as sta_config, \
+                        open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile'), "w+") as sta_backupconfig:
+                    sta_backupconfig.write(sta_config.read())
+
                 curw_station_metaseries = get_station_metaseries(station_type, db_type1, station_data_curw, logger_bulk)
                 CONFIG_curw_station[station_type].insert(-1, curw_station_metaseries)
 
@@ -230,6 +242,12 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
                 if station_curwobs['stationId'] == station_data_curwobs['stationId']:
                     break
             else:
+                # write a backupfile before dumping to the StationConfig.json
+                with open(pjoin(root_dir, '../../Data-Pusher-Obs/CONFIG.dist.json'), "r") as sta_config, \
+                        open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile'),
+                             "w+") as sta_backupconfig:
+                    sta_backupconfig.write(sta_config.read())
+
                 curwobs_station_metaseries = get_station_metaseries(station_type, db_type2, station_data_curwobs, logger_bulk)
                 CONFIG_curwobs_station[station_type].insert(-1, curwobs_station_metaseries)
 
