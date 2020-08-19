@@ -204,13 +204,15 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
     stations_curwobs = CONFIG_curwobs_station[station_type]
     data_curwobs = data
 
-    #First add station to the IoT config
 
-    add_station_curw_iot(db_type1, action_type, station_type,  data, logger_bulk)
 
     #Refer to the action type, if the action type not listed prompt an error
 
     if action_type == 'add_station':
+
+        # First add station to the IoT config
+
+        add_station_curw_iot(db_type1, action_type, station_type, data, logger_bulk)
 
         #Secondly add station to the curw and then to curw obs config
 
@@ -223,7 +225,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
                 logger_bulk.error(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'))
                 # write a backupfile before dumping to the StationConfig.json
                 with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "r") as sta_config, \
-                        open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile_%s' % date), "w+") as sta_backupconfig:
+                        open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile_%s.json' % date), "w+") as sta_backupconfig:
                     sta_backupconfig.write(sta_config.read())
 
                 curw_station_metaseries = get_station_metaseries(station_type, db_type1, station_data_curw, logger_bulk)
@@ -248,7 +250,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
 
                 # write a backupfile before dumping to the StationConfig.json
                 with open(pjoin(root_dir, '../../Data-Pusher-Obs/CONFIG.dist.json'), "r") as sta_config, \
-                        open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile_%s' % date),
+                        open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile_%s.json' % date),
                              "w+") as sta_backupconfig:
                     sta_backupconfig.write(sta_config.read())
 
@@ -277,7 +279,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
             #    outfile.write(curw_updated)
 
             with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "r") as sta_config, \
-                    open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile_%s' % date), "w+") as sta_backupconfig:
+                    open(pjoin(root_dir, '../../ExtractAndPush/Backup/backupfile_%s.json' % date), "w+") as sta_backupconfig:
                 sta_backupconfig.write(sta_config.read())
 
             with open(pjoin(root_dir, '../../ExtractAndPush/CONFIG.dist.json'), "w") as sta_configdist:
@@ -296,7 +298,7 @@ def add_station_to_all(action_type, station_type, data, logger_bulk):
             curwobs_updated = json.dumps(CONFIG_curwobs_station, sort_keys=True, indent=4)
 
             with open(pjoin(root_dir, '../../Data-Pusher-Obs/CONFIG.dist.json'), "r") as sta_config, \
-                    open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile_%s' % date),
+                    open(pjoin(root_dir, '../../Data-Pusher-Obs/Backup/backupfile_%s.json' % date),
                          "w+") as sta_backupconfig:
                 sta_backupconfig.write(sta_config.read())
 
