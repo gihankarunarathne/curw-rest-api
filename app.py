@@ -501,20 +501,14 @@ def add_weather_station():
 
         if data is not None:
             if db_type == 'curw_iot':
-                logger_bulk.error("**************")
-                logger_bulk.error(action_type)
-                logger_bulk.error(station_type)
-                logger_bulk.error(data)
 
                 #add curw station only to the curw_iot
                 try:
                     add_station_curw_iot(db_type, action_type, station_type, data, logger_bulk)
-                    
+                    return "Success", 200
                 except Exception as json_error:
                     logger_bulk.error(json_error)
                     return "The changes did not apply to curw_iot platform", 400
-
-
 
             elif db_type == 'curw_all':
                 #first add the station to curw_iot and then to other two
